@@ -1,10 +1,9 @@
 <template>
   <div class="hello">
-    
+
     <div class="ParallaxImage bg1">
       <div class="container">
         <h1>Red Velvet</h1>
-        </p>
       </div>
     </div>
     <div class="ParallaxContent">
@@ -48,24 +47,31 @@
         <div id="vueApp">
         </div>
         <div style="text-align: left;">
-          <p>Red Velvet is known for their 'dual concept' dubbed as their "red" and "velvet" sides which influences their styling and
-          the music they release. The group's "red" half produces singles predominantly of the pop genre due to its bright and
-          more youthful nature. Their singles "Ice Cream Cake", "Dumb Dumb" and "Red Flavor" are such examples. Their more mature
-          "velvet" concept has spawned tracks primarily in the R&B genre. Their singles "Automatic" and "Bad Boy" are considered
-          to be part of the 'velvet" concept. They often incorporate other genres for the two sides, mixing them with genres such
-          as electronic pop, hip-hop and disco. This dual concept has earned the group international praise for their versatility
-          and diverse music.
+          <p>Red Velvet is known for their 'dual concept' dubbed as their "red" and "velvet" sides which influences
+            their styling and
+            the music they release. The group's "red" half produces singles predominantly of the pop genre due to its
+            bright and
+            more youthful nature. Their singles "Ice Cream Cake", "Dumb Dumb" and "Red Flavor" are such examples. Their
+            more mature
+            "velvet" concept has spawned tracks primarily in the R&B genre. Their singles "Automatic" and "Bad Boy" are
+            considered
+            to be part of the 'velvet" concept. They often incorporate other genres for the two sides, mixing them with
+            genres such
+            as electronic pop, hip-hop and disco. This dual concept has earned the group international praise for their
+            versatility
+            and diverse music.
             <br><br>
           </p>
         </div>
       </div>
     </div>
-        <h1 style="    font-weight: 500;
+    <h1 style="    font-weight: 500;
                  font-size: 66px;
                  text-align: center;
                  text-transform: uppercase;
                  color: #FFF;">Discography</h1>
-                 <discography></discography>
+    <discography></discography>
+
   </div>
 </template>
 <script>
