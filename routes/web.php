@@ -15,4 +15,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
+Route::get('/Joy/Achievements', 'RedVelvetDataController@JoyDataAchiv');
+
+
 Route::get('/{any}', function () {return view('welcome');})->where('any', '(.*)');
