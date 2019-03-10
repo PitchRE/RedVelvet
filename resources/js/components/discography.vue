@@ -36,7 +36,7 @@
                     class="carouselImg"
                     src="images/covers/Winter_Garden.jpg"
                 />
-                <p class="members">Winter Garden</p>
+                <p class="membersSmall">Winter Garden</p>
             </slide>
             <slide :index="5">
                 <img class="carouselImg" src="images/covers/The_Velvet.jpg" />
