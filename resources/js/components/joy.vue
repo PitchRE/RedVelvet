@@ -2,8 +2,8 @@
   <div class="Joy">
     <b-container fluid class="p-5">
 <div>
-  <b-alert show dismissible show variant="warning">
-    Warning. Work In Progress Section. Feel free to contribute.
+  <b-alert show dismissible variant="warning">
+    Warning. Work In Progress Section.
   </b-alert>
 </div>
 
@@ -22,32 +22,34 @@
         </b-col>
         <b-col class="ex2 bioTextColl p-5 border" xl="8">
           <p class="bioText">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit quis tortor id maximus. Mauris auctor tempus
-dignissim. In sed auctor orci, et faucibus quam. Suspendisse nec fringilla urna. Etiam eget lacus id leo blandit semper
-ac in dolor. Praesent ultrices sapien in congue blandit. Sed bibendum, tortor quis efficitur convallis, sem nisi
-scelerisque erat, non convallis risus orci nec diam. Morbi nec ipsum magna. Morbi enim lorem, volutpat sit amet
-fermentum vitae, sollicitudin non urna. Donec sagittis imperdiet maximus.
+Park Soo-young (born September 3, 1996), known by the stage name Joy, is a South Korean singer and actress. 
+She is a member of the South Korean girl group Red Velvet. Aside from group activities, Joy has also starred in various television dramas such as The Liar and His Lover (2017) and Tempted (2018).
 <br>
-</p><p class="bioText">
-Fusce porta lectus eu vulputate fermentum. Suspendisse potenti. Phasellus fringilla sem massa, eget iaculis mi porttitor
-quis. Curabitur vitae mauris tincidunt, imperdiet neque sit amet, hendrerit neque. Cras eget ante in metus iaculis
-sagittis. Pellentesque sit amet molestie ligula, vitae interdum dolor. Orci varius natoque penatibus et magnis dis
-parturient montes, nascetur ridiculus mus. Vivamus sit amet aliquam turpis.
 <br>
-</p><p class="bioText">
-Sed consectetur feugiat tempus. Suspendisse ultricies urna ac tellus aliquet, et commodo elit fermentum. Vestibulum
-tincidunt ornare nunc, eu interdum risus iaculis convallis. Nunc sit amet lorem feugiat ipsum gravida efficitur. Cras
-quis convallis nisl, ut mollis libero. Aliquam scelerisque tortor a leo posuere, eget lacinia erat elementum. Curabitur
-arcu turpis, convallis non suscipit ac, feugiat et dui. Nam commodo iaculis bibendum. Morbi iaculis eu diam sit amet
-hendrerit. Fusce at mattis magna. Nullam enim nunc, egestas ut scelerisque eu, malesuada non elit.
 </p>
+<h4 style="color:white; text-align:center;">Early life</h4>
+<p class="bioText">
+Park Soo-young was born in Jeju Island, South Korea. Her family then moved to Dobong District, Seoul after just one month.
+ Her family consists of her parents and two younger sisters, Park Ji-yeong and Park Min-ji. As a child, Joy was interested in modern trot music.[6] In grade school, she was influenced to become a singer after receiving praise for her rendition of Korean rock band Cherry Filter's song Flying Duck. Joy auditioned and was cast by SM Entertainment at the S.M. Global Audition in Seoul in 2012.
+ She trained under the agency for two years, during which time a vocal coach gave her the stage name "Joy".
+<br>
+</p>
+<h5 style="color:white; text-align:center;">1996–2014: Early life and career beginnings</h5>
+<p class="bioText">
+Joy was introduced as the fourth member of Red Velvet on July 29, 2014.[9][10] She is the only member of the group who was not introduced as a part of SM Rookies before the group's debut. The group made their music debut with the digital single "Happiness" on August 1, 2014.[11] Since 2014, the group has released six EPs and two studio albums.
+</p>
+<h4 style="color:white; text-align:center;">1996–2014: Early life and career beginnings</h4>
 <p class="bioText">
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit quis tortor id maximus. Mauris auctor tempus
-dignissim. In sed auctor orci, et faucibus quam. Suspendisse nec fringilla urna. Etiam eget lacus id leo blandit semper
-ac in dolor. Praesent ultrices sapien in congue blandit. Sed bibendum, tortor quis efficitur convallis, sem nisi
-scelerisque erat, non convallis risus orci nec diam. Morbi nec ipsum magna. Morbi enim lorem, volutpat sit amet
-fermentum vitae, sollicitudin non urna. Donec sagittis imperdiet maximus.
+In 2015, Joy joined the fourth season of reality show We Got Married, where she appeared opposite BtoB member Yook Sung-jae.
+ She received significant recognition for her participation in the popular TV program and featured in her first solo pictorial in Korean fashion magazine CéCi, concurrent to modeling for Etude House cosmetics.
+  On December 29, 2015, Joy shared a win with Yook for the Best Couple Award and separately won the New Star Award at the 2015 MBC Entertainment Awards.
+  <br>
+  <br>
+  Following group promotions for Red Velvet's second mini album The Velvet, Joy released a duet with Yook on April 16, 2016 entitled "Young Love" and received official songwriting credit for contributing to its lyrical composition.
+   The song entered the top 12 of the Instiz iChart real-time rankings upon its release and peaked at #52 on the Gaon Singles Chart.
+    Departing from We Got Married on May 7, 2016 they became known as one of the longest-running and most popular couples in the show's history.
+   Over the course of We Got Married airing, their videos together on YouTube accumulated over 21.3 million views and have since gone on to accumulate over 200 million views in total.
 
 
 </p>
@@ -65,8 +67,8 @@ fermentum vitae, sollicitudin non urna. Donec sagittis imperdiet maximus.
 </b-col>
 
 </b-row>
-      <b-row class="m-1">
-        <b-col xl="4">
+      <b-row class="m-2" >
+        <b-col xl="4" offset="3">
           <div class="card" style="width: 18rem;">
   <img v-b-popover.hover="'Also known as Tempted'" class="card-img-top" src="images/tempted.jpg" alt="Card image cap">
   <div class="card-body">
@@ -78,30 +80,21 @@ fermentum vitae, sollicitudin non urna. Donec sagittis imperdiet maximus.
         </b-col>
         <b-col  xl="4">
                 <div class="card" style="width: 18rem;">
-                  <img class="card-img-top" src="images/tempted.jpg" alt="Card image cap">
+                  <img class="card-img-top" src="images/theliarandhislover.jpg" alt="Card image cap">
                   <div class="card-body">
-                    <h5 class="card-title">The Great Seducer</h5>
-                    <p class="card-text">as Eun Tae-hee</p>
+                    <h5 class="card-title">The Liar and His Lover</h5>
+                    <p class="card-text">Yoon So-rim</p>
                     <a href="#" class="btn btn-success disabled">Watch</a>
                   </div>
                 </div>
         </b-col>
-        <b-col  xl="4">
-                  <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="images/tempted.jpg" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">The Great Seducer</h5>
-                      <p class="card-text">as Eun Tae-hee</p>
-                      <a href="#" class="btn btn-success disabled">Watch</a>
-                    </div>
-                  </div>
-        </b-col>
+     
       </b-row>
       <b-row>
         <b-col>
 
    
-        <b-card-body<p class="card-text"><joyTimeline></joyTimeline></p>
+<joyTimeline></joyTimeline>
 
 
 
@@ -112,6 +105,9 @@ fermentum vitae, sollicitudin non urna. Donec sagittis imperdiet maximus.
      
               </b-col>
               </b-row>
+
+
+
     </b-container>
     
   </div>
