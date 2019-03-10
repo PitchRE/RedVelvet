@@ -19,41 +19,33 @@
 </head>
 
 
-<div class="container">
-<section>
-    <div class="tbl-header">
-        <table cellpadding="0" cellspacing="0" border="0">
-            <thead>
+<div class="container-fluid">
+
+
+<table class="table table-hover table-striped table-bordered table-light ">
+        <thead class="thead-light">
+          <tr>
+            <th scope="col">Award</th>
+            <th scope="col">Category</th>
+            <th scope="col">Work</th>
+            <th scope="col">Result</th>
+          </tr>
+        </thead>
+        <tbody class="tableStyle">
+                @foreach($result as $results)
                 <tr>
-                    <th>Award</th>
-                    <th>Category</th>
-                    <th>Work</th>
-                    <th>Result</th>
+                    <td>{{ $results['Award']}}</td>
+                    <td>{{ $results['Category']}}</td>
+                    <td>{{ $results['Work']}}</td>
+                    @if ($results['hasReference'] == 1)
+                    <td onClick="resultClick('{{$results['Reference']}}')" class="{{ $results['Result']}} refExist">{{ $results['Result']}}</td>
+               @else
+               <td class="{{ $results['Result']}}">{{ $results['Result']}}</td>
+               @endif
                 </tr>
-            </thead>
-        </table>
-    </div>
-    <div class="tbl-content">
-        <table cellpadding="0" cellspacing="0" border="0">
-            <tbody>
-                    @foreach($result as $results)
-                    <tr>
-                        <td>{{ $results['Award']}}</td>
-                        <td>{{ $results['Category']}}</td>
-                        <td>{{ $results['Work']}}</td>
-                        @if ($results['hasReference'] == 1)
-                        <td onClick="resultClick('{{$results['Reference']}}')" class="{{ $results['Result']}} refExist">{{ $results['Result']}}</td>
-                   @else
-                   <td class="{{ $results['Result']}}">{{ $results['Result']}}</td>
-                   @endif
-                    </tr>
-                    @endforeach
-            </tbody>
-        </table>
-    </div>
-</section>
-
-
+                @endforeach
+        </tbody>
+      </table>
 
 
 
@@ -81,119 +73,22 @@
     crossorigin="anonymous"></script>
 </body>
 
-<script>
-    // '.tbl-content' consumed little space for vertical scrollbar, scrollbar width depend on browser/os/platfrom. Here calculate the scollbar width .
-    $(window).on("load resize ", function () {
-        var scrollWidth = $('.tbl-content').width() - $('.tbl-content table').width();
-        $('.tbl-header').css({ 'padding-right': scrollWidth });
-    }).resize();
-</script>
 
 
 
 <style>
 
+.tableStyle{
+    font-weight: 700;
+    font-family:'Courier New', Courier, monospace
+}
 
-    
-    h1 {
-        font-size: 30px;
-        color: #fff;
-        text-transform: uppercase;
-        font-weight: 100;
-        text-align: center;
-        margin-bottom: 10px;
-    }
+body{
+    background: #b92b27;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-    h2 {
-        font-size: 13px;
-        color: #fff;
-        font-weight: 100;
-        text-align: center;
-        margin-bottom: 33px;
-    }
-
-    h3 {
-        font-size: 15px;
-        color: #fff;
-        font-weight: 100;
-        text-align: left;
-        margin-bottom: 15px;
-    }
-
-    table {
-        width: 100%;
-        table-layout: auto;
-    }
-
-    .tbl-header {
-        background-color: rgba(255, 255, 255, 0.3);
-    }
-
-    .tbl-content {
-        height: 200px;
-        overflow-x: auto;
-        margin-top: 0px;
-        border: 1px solid rgba(255, 255, 255, 0.3);
-    }
-
-    th {
-        padding: 20px 15px;
-        text-align: left;
-        font-weight: 500;
-        font-size: 12px;
-        color: #fff;
-        text-transform: uppercase;
-    }
-
-    td {
-        padding: 15px;
-        text-align: left;
-        vertical-align: middle;
-        font-weight: 300;
-        font-size: 12px;
-        color: #fff;
-        border-bottom: solid 1px rgba(255, 255, 255, 0.1);
-    }
-
-    .amount {
-        padding: 15px;
-        text-align: right;
-        vertical-align: middle;
-        font-weight: 300;
-        font-size: 12px;
-        color: #fff;
-        border-bottom: solid 1px rgba(255, 255, 255, 0.1);
-    }
-
-    /* demo styles */
-
-    @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
-
-    body {
-        background: -webkit-linear-gradient(left, #25c481, #25b7c4);
-        background: linear-gradient(to right, #25c481, #25b7c4);
-        font-family: 'Roboto', sans-serif;
-    }
-
-    section {
-        margin: 50px;
-    }
-
-
-
-    /* for custom scrollbar for webkit browser*/
-
-    ::-webkit-scrollbar {
-        width: 6px;
-    }
-
-    ::-webkit-scrollbar-track {
-        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-    }
-
-    ::-webkit-scrollbar-thumb {
-        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-    }
+}
 
     .Win {
     background-color: rgba(34, 209, 18, 0.404)
@@ -210,6 +105,9 @@
 
 .refExist{
     cursor: pointer;
+}
+.table{
+    background-color: rgba(243, 247, 242, 0.658)
 }
 
 </style>

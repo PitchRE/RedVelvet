@@ -15,8 +15,11 @@
               <b-tabs  card>
                 <b-tab title="General Information" class="JoyTableDataTab" active><b-table class="JoyTableData" stacked :items="generalData" /></b-tab>
                 <b-tab  title="Career"><b-table class="JoyTableData" stacked :items="CareerData" /></b-tab>
+              <b-tab title="Other">   <achivDataModal></achivDataModal></b-tab>
               </b-tabs>
+              
             </b-card>
+          
           </div>
           
         </b-col>
@@ -68,7 +71,7 @@ In 2015, Joy joined the fourth season of reality show We Got Married, where she 
 
 </b-row>
       <b-row class="m-2" >
-        <b-col xl="4" offset="3">
+        <b-col xs=12 sm=12  xl="4" offset-xl="2">
           <div class="card" style="width: 18rem;">
   <img v-b-popover.hover="'Also known as Tempted'" class="card-img-top" src="images/tempted.jpg" alt="Card image cap">
   <div class="card-body">
@@ -78,7 +81,7 @@ In 2015, Joy joined the fourth season of reality show We Got Married, where she 
   </div>
 </div>
         </b-col>
-        <b-col  xl="4">
+        <b-col xs=12 sm=12  xl="4" offset-xl="2">
                 <div class="card" style="width: 18rem;">
                   <img class="card-img-top" src="images/theliarandhislover.jpg" alt="Card image cap">
                   <div class="card-body">
@@ -93,7 +96,7 @@ In 2015, Joy joined the fourth season of reality show We Got Married, where she 
       <b-row>
         <b-col>
 
-   
+
 <joyTimeline></joyTimeline>
 
 
@@ -114,9 +117,11 @@ In 2015, Joy joined the fourth season of reality show We Got Married, where she 
 </template>
 <script>
   import joyTimeline from './joyTimeline.vue'
+  import achivDataModal from './JoyAchivData.vue'
     export default {
         components: {
             joyTimeline,
+            achivDataModal
 
             },
       data() {
