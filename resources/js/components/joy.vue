@@ -152,8 +152,8 @@ export default {
   font-size: 18px;
   text-indent: 50px;
   text-align: justify;
-  letter-spacing: 0.5px;
-  text-shadow: 2px 1px black;
+  letter-spacing: 0.2px;
+  text-shadow: 1px 1px black;
 }
 
 .bioText {

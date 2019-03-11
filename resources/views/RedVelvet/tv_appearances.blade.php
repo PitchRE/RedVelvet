@@ -29,8 +29,8 @@
                 @foreach($result as $results)
 
                 <tr>
-                    <td>{{ $results['name']}}</td>
-                    <td>{{ $results['date']}}</td>
+                    <td>{!! $results['name'] !!}</td>
+                    <td>{!! $results['date'] !!}</td>
                     <td><button  type="button" class="btn btn-success" onClick="resultClick('{{$results['link']}}')">Click</button></td>
                     @if ($results['description'])
 
@@ -114,8 +114,7 @@
 }
     
     .tableStyle {
-        font-weight: 700;
-        font-family: 'Courier New', Courier, monospace
+
     }
 
     body{
