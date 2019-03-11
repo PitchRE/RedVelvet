@@ -8,7 +8,7 @@
         </v-avatar>
       </template>
       <template v-slot:opposite>
-<!--      <span>Tus eu perfecto</span>   -->   -->
+<!--      <span>Tus eu perfecto</span>   -->  
       </template>
       <v-card class="elevation-2" > 
         <v-card-title  class="headline">September 3, 1996</v-card-title>
