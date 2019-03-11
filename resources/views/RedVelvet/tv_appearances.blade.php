@@ -22,20 +22,59 @@
                     <th>Name</th>
                     <th>Date</th>
                     <th>Link</th>
+                    <th>More</th>
                 </tr>
             </thead>
             <tbody class="tableStyle">
                 @foreach($result as $results)
 
-                <tr title="Desc" data-html="true" data-placement="bottom" data-toggle="popover" data-trigger="hover" data-content="{{ $results['description']}}">
+                <tr>
                     <td>{{ $results['name']}}</td>
                     <td>{{ $results['date']}}</td>
-                    <td><button onClick="resultClick('{{$results['link']}}')">Click</button></td>
+                    <td><button  type="button" class="btn btn-success" onClick="resultClick('{{$results['link']}}')">Click</button></td>
+                    @if ($results['description'])
+
+
+                    <td><button type="button" class="btn btn-success" data-toggle="modal" data-target=".modal{{ $results['id']}}">Description</button></td>
+                    @endif
                 </tr>
                 @endforeach
             </tbody>
         </table>
     </div>
+
+
+<!-- a lot of modals over here -->
+
+
+@foreach($result as $results)
+
+<div class="modal fade modal{{$results['id']}}" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content ">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">{{$results['name']}}</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+      {!! $results['description'] !!}
+</div>
+    </div>
+  </div>
+</div>
+
+
+@endforeach
+
+
+
+
+
+
+
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
@@ -64,6 +103,7 @@
     function resultClick(href){
     window.open(href);
 }
+
 
 </script>
 <style>
