@@ -25,13 +25,52 @@ class RedVelvetDataController extends Controller
         return view("Joy.achievements", compact('result'));
     }
 
+    public function RedVelvetTVnative(){
 
-
-    public function RedVelvetTV(){
         $data = \DB::table('tv_appearances')->get();
         $result = json_decode($data, true);
+    return view("RedVelvet.tv_appearances", compact('result'));
+     }
+ 
 
+
+    public function RedVelvetTV($who){
+
+        if($who == 'RedVelvet'){
+            $data = \DB::table('tv_appearances')->get();
+            $result = json_decode($data, true);
         return view("RedVelvet.tv_appearances", compact('result'));
+    } else if($who == 'Joy'){
+
+        $data = \DB::table('tv_appearances')->where('joy', 1)->get();
+        $result = json_decode($data, true);
+    return view("RedVelvet.tv_appearances", compact('result'));
+    } else if($who == 'Irene'){
+
+        $data = \DB::table('tv_appearances')->where('irene', 1)->get();
+        $result = json_decode($data, true);
+    return view("RedVelvet.tv_appearances", compact('result'));
+    }
+    else if($who == 'Wendy'){
+
+        $data = \DB::table('tv_appearances')->where('wendy', 1)->get();
+        $result = json_decode($data, true);
+    return view("RedVelvet.tv_appearances", compact('result'));
+    }
+    else if($who == 'Yeri'){
+
+        $data = \DB::table('tv_appearances')->where('yeri', 1)->get();
+        $result = json_decode($data, true);
+    return view("RedVelvet.tv_appearances", compact('result'));
+    }else if($who == 'Seulgi'){
+
+        $data = \DB::table('tv_appearances')->where('seulgi', 1)->get();
+        $result = json_decode($data, true);
+    return view("RedVelvet.tv_appearances", compact('result'));
+    } else {
+        abort(404);
+    }
+
     }
 
 

@@ -17,7 +17,11 @@ Route::get('/', function () {
 
 
 Route::get('/Joy/Achievements', 'RedVelvetDataController@JoyDataAchiv');
-Route::get('/RedVelvet/Appearances', 'RedVelvetDataController@RedVelvetTV');
+
+
+Route::get('/Appearances', 'RedVelvetDataController@RedVelvetTVnative');
+Route::get('/Appearances/{who}', 'RedVelvetDataController@RedVelvetTV');
+
 
 
 Route::get('/{any}', function () {return view('welcome');})->where('any', '(.*)');

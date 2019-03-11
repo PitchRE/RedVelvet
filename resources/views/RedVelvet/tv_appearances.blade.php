@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container-fluid">
         <table data-toggle="table" class="table table-hover table-striped table-bordered table-light"
             data-pagination="true" data-search="true" data-sort-stable="true">
             <thead>
@@ -30,7 +30,7 @@
                 <tr title="Desc" data-html="true" data-placement="bottom" data-toggle="popover" data-trigger="hover" data-content="{{ $results['description']}}">
                     <td>{{ $results['name']}}</td>
                     <td>{{ $results['date']}}</td>
-                    <td><a href="{{ $results['link']}}" rel="popover" data-img="//placehold.it/400x200">Click!</a></td>
+                    <td><button onClick="resultClick('{{$results['link']}}')">Click</button></td>
                 </tr>
                 @endforeach
             </tbody>
@@ -61,7 +61,9 @@
         $('[data-toggle="popover"]').popover()
         
     });
-
+    function resultClick(href){
+    window.open(href);
+}
 
 </script>
 <style>
