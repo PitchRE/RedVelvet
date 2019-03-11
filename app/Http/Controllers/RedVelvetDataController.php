@@ -26,6 +26,16 @@ class RedVelvetDataController extends Controller
     }
 
 
+
+    public function RedVelvetTV(){
+        $data = \DB::table('tv_appearances')->get();
+        $result = json_decode($data, true);
+
+        return view("RedVelvet.tv_appearances", compact('result'));
+    }
+
+
+
     /**
      * Show the form for creating a new resource.
      *
