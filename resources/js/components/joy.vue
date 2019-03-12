@@ -89,7 +89,7 @@
       </b-row>
       <b-row>
         <b-col>
-          <joyFacts></joyFacts>
+        <joyFacts></joyFacts>
           <div v-if="isHidden3">
             <joyTimeline></joyTimeline>
           </div>
@@ -100,7 +100,7 @@
 </template>
 <script>
 import joyTimeline from "./joyTimeline.vue";
-import joyFacts from "./joyFacts";
+import joyFacts from "./joyFacts.vue";
 export default {
   components: {
     joyTimeline,
