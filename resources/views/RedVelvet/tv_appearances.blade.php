@@ -21,6 +21,7 @@
                 <tr>
                     <th>Name</th>
                     <th>Date</th>
+                    <th>Notes</th>
                     <th>Link</th>
                     <th>More</th>
                 </tr>
@@ -31,6 +32,7 @@
                 <tr>
                     <td>{!! $results['name'] !!}</td>
                     <td>{!! $results['date'] !!}</td>
+                    <td>{!! $results['notes'] !!}</td>
                     <td><button  type="button" class="btn btn-success" onClick="resultClick('{{$results['link']}}')">Click</button></td>
                     @if ($results['description'])
 
@@ -53,7 +55,7 @@
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content ">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">{{$results['name']}}</h5>
+        <h5 class="modal-title" id="exampleModalLongTitle">{!! $results['name'] !!}</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>

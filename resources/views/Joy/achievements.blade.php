@@ -25,6 +25,7 @@
 <table class="table table-hover table-striped table-bordered table-light ">
         <thead class="thead-light">
           <tr>
+            <th scope="col">Year</th>
             <th scope="col">Award</th>
             <th scope="col">Category</th>
             <th scope="col">Work</th>
@@ -34,6 +35,7 @@
         <tbody class="tableStyle">
                 @foreach($result as $results)
                 <tr>
+                <td>{{ $results['Year']}}</td>
                     <td>{{ $results['Award']}}</td>
                     <td>{{ $results['Category']}}</td>
                     <td>{{ $results['Work']}}</td>
