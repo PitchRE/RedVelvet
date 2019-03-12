@@ -1,6 +1,6 @@
 <template>
   <div id="timeline">
-  <v-timeline dark>
+  <v-timeline dark >
     <v-timeline-item  large >
       <template v-slot:icon>
         <v-avatar>
@@ -8,7 +8,7 @@
         </v-avatar>
       </template>
       <template v-slot:opposite>
-        <span>Tus eu perfecto</span>
+<!--      <span>Tus eu perfecto</span>   -->  
       </template>
       <v-card class="elevation-2" > 
         <v-card-title  class="headline">September 3, 1996</v-card-title>
@@ -24,7 +24,7 @@
         </v-avatar>
       </template>
       <template v-slot:opposite>
-        <span>Tus eu perfecto</span>
+        <!--      <span>Tus eu perfecto</span>   -->
       </template>
       <v-card class="elevation-2">
         <v-card-title class="headline">October 1996</v-card-title>
@@ -41,7 +41,7 @@
         </v-avatar>
       </template>
       <template v-slot:opposite>
-        <span>Tus eu perfecto</span>
+        <!--      <span>Tus eu perfecto</span>   -->
       </template>
       <v-card class="elevation-2">
         <v-card-title class="headline">2012</v-card-title>
@@ -58,7 +58,7 @@
         </v-avatar>
       </template>
       <template v-slot:opposite>
-        <span>Tus eu perfecto</span>
+        <!--      <span>Tus eu perfecto</span>   -->
       </template>
       <v-card class="elevation-2">
         <v-card-title class="headline">2012-2014</v-card-title>
@@ -75,7 +75,7 @@
         </v-avatar>
       </template>
       <template v-slot:opposite>
-        <span>Tus eu perfecto</span>
+        <!--      <span>Tus eu perfecto</span>   -->
       </template>
       <v-card class="elevation-2">
         <v-card-title class="headline">July 29, 2014</v-card-title>
@@ -92,7 +92,7 @@
         </v-avatar>
       </template>
       <template v-slot:opposite>
-        <span>Tus eu perfecto</span>
+        <!--      <span>Tus eu perfecto</span>   -->
       </template>
       <v-card class="elevation-2">
         <v-card-title class="headline">2015</v-card-title>
@@ -109,7 +109,7 @@
                 </v-avatar>
             </template>
             <template v-slot:opposite>
-                <span>Tus eu perfecto</span>
+                <!--      <span>Tus eu perfecto</span>   -->
             </template>
             <v-card class="elevation-2">
                 <v-card-title class="headline">2015</v-card-title>
@@ -123,7 +123,7 @@
         </v-avatar>
       </template>
       <template v-slot:opposite>
-        <span>Tus eu perfecto</span>
+        <!--      <span>Tus eu perfecto</span>   -->
       </template>
       <v-card class="elevation-2">
         <v-card-title class="headline">December 29, 2015</v-card-title>
@@ -142,7 +142,7 @@
         </v-avatar>
       </template>
       <template v-slot:opposite>
-        <span>Tus eu perfecto</span>
+        <!--      <span>Tus eu perfecto</span>   -->
       </template>
       <v-card class="elevation-2">
         <v-card-title class="headline">April 16, 2016</v-card-title>
@@ -163,7 +163,7 @@
         </v-avatar>
       </template>
       <template v-slot:opposite>
-        <span>Tus eu perfecto</span>
+        <!--      <span>Tus eu perfecto</span>   -->
       </template>
       <v-card class="elevation-2">
         <v-card-title class="headline">May 7, 2016</v-card-title>
@@ -184,7 +184,7 @@
         </v-avatar>
       </template>
       <template v-slot:opposite>
-        <span>Tus eu perfecto</span>
+        <!--      <span>Tus eu perfecto</span>   -->
       </template>
       <v-card class="elevation-2">
         <v-card-title class="headline">mid 2016</v-card-title>
@@ -203,7 +203,7 @@
         </v-avatar>
       </template>
       <template v-slot:opposite>
-        <span>Tus eu perfecto</span>
+        <!--      <span>Tus eu perfecto</span>   -->
       </template>
       <v-card class="elevation-2">
         <v-card-title class="headline">November 2016.</v-card-title>
@@ -223,7 +223,7 @@
         </v-avatar>
       </template>
       <template v-slot:opposite>
-        <span>Tus eu perfecto</span>
+        <!--      <span>Tus eu perfecto</span>   -->
       </template>
       <v-card class="elevation-2">
         <v-card-title class="headline">2017</v-card-title>
@@ -246,7 +246,7 @@
         </v-avatar>
       </template>
       <template v-slot:opposite>
-        <span>Tus eu perfecto</span>
+        <!--      <span>Tus eu perfecto</span>   -->
       </template>
       <v-card class="elevation-2">
         <v-card-title class="headline">July 2017</v-card-title>
@@ -264,7 +264,7 @@
         </v-avatar>
       </template>
       <template v-slot:opposite>
-        <span>Tus eu perfecto</span>
+        <!--      <span>Tus eu perfecto</span>   -->
       </template>
       <v-card class="elevation-2">
         <v-card-title class="headline">2018</v-card-title>
@@ -282,7 +282,7 @@
         </v-avatar>
       </template>
       <template v-slot:opposite>
-        <span>Tus eu perfecto</span>
+        <!--      <span>Tus eu perfecto</span>   -->
       </template>
       <v-card class="elevation-2">
         <v-card-title class="headline">2018</v-card-title>
@@ -300,7 +300,7 @@
         </v-avatar>
       </template>
       <template v-slot:opposite>
-        <span>Tus eu perfecto</span>
+        <!--      <span>Tus eu perfecto</span>   -->
       </template>
       <v-card class="elevation-2">
         <v-card-title class="headline">2018</v-card-title>
@@ -321,7 +321,7 @@
         </v-avatar>
       </template>
       <template v-slot:opposite>
-        <span>Tus eu perfecto</span>
+        <!--      <span>Tus eu perfecto</span>   -->
       </template>
       <v-card class="elevation-2">
         <v-card-title class="headline"
@@ -343,7 +343,7 @@
         </v-avatar>
       </template>
       <template v-slot:opposite>
-        <span>Tus eu perfecto</span>
+        <!--      <span>Tus eu perfecto</span>   -->
       </template>
       <v-card class="elevation-2">
         <v-card-title class="headline">Shortly after...</v-card-title>
@@ -361,7 +361,7 @@
         </v-avatar>
       </template>
       <template v-slot:opposite>
-        <span>Tus eu perfecto</span>
+        <!--      <span>Tus eu perfecto</span>   -->
       </template>
       <v-card class="elevation-2">
         <v-card-title class="headline">October 2018</v-card-title>
@@ -371,7 +371,6 @@
         >
       </v-card>
     </v-timeline-item>
-        </v-timeline-item>
         <v-timeline-item  large>
             <template v-slot:icon>
                 <v-avatar>
@@ -379,7 +378,7 @@
                 </v-avatar>
             </template>
             <template v-slot:opposite>
-                <span>Tus eu perfecto</span>
+                <!--      <span>Tus eu perfecto</span>   -->
             </template>
             <v-card class="elevation-2">
                 <v-card-title class="headline">January 2019</v-card-title>

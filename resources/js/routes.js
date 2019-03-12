@@ -3,6 +3,7 @@ import videobg from "./components/video-bg.vue";
 import HelloWorld from "./components/HelloWorld.vue";
 import Joy from "./components/joy.vue";
 
+
 export const routes = [
     {
         path: "/",
