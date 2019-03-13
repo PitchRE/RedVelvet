@@ -20,7 +20,11 @@ Vue.use(Vuex);
 
 const router = new VueRouter({
     routes,
-    mode: "history"
+    mode: "history",
+    scrollBehavior (to, from, savedPosition) {
+        return { x: 0, y: 0 };
+      }
+    
 });
 
 const app = new Vue({
