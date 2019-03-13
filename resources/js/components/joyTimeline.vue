@@ -1,5 +1,5 @@
 <template>
-  <div id="timeline">
+  <div class="container" id="timeline">
   <v-timeline dark >
     <v-timeline-item  large >
       <template v-slot:icon>
@@ -397,7 +397,8 @@
 <style lang="scss">
 
 #timeline{
-      background-color: rgba(4, 19, 36, 0.664);
+
+      font-size: 20px;
 }
 
 .elevation-2{
