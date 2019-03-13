@@ -1,34 +1,43 @@
 
 
 <template>
+
   <div>
+      
     <div class="bgimg-4">
       <div class="caption">
-        <span
+          <div data-aos="fade-up">
+        <span 
+     data-aos-anchor-placement="center-center"
           class="border"
           style="background-color:transparent;font-size:25px;color: #f7f7f7; text-decoration: underline;"
         >Yeri</span>
+        </div>
       </div>
     </div>
 
-    <div
+    <div 
       style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;"
     >
+    <div data-aos="fade-up-right">
       <h3 style="text-align:center;">Kim Ye-ri</h3>
       <p>Kim Ye-rim (Hangul: 김예림, born March 5, 1999), better known by her stage name, Yeri, is a South-Korean singer-songwriter, dancer, rapper and television personality. She is the sub vocalist, sub dancer and sub rapper of the South-Korean girl group Red Velvet and was introduced to the group as a new addition on March 11, 2015</p>
+   </div>
     </div>
 
     <div class="bgimg-2">
       <div class="caption">
-        <span
+          <div data-aos="flip-left">
+        <span 
           class="border"
           style="background-color:transparent;font-size:25px;color: black;"
         >Early life and Career Beginnings</span>
+        </div>
       </div>
     </div>
 
-    <div style="position:relative;">
-      <div
+    <div  style="position:relative;">
+      <div 
         style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;"
       >
         <p>
@@ -39,16 +48,18 @@
       </div>
     </div>
 
-    <div class="bgimg-3">
+    <div  class="bgimg-3">
       <div class="caption">
-        <span
+          <div data-aos="fade-right">
+        <span 
           class="border"
           style="background-color:transparent;font-size:25px;color: #f7f7f7;"
         >CAREER</span>
+        </div>
       </div>
     </div>
 
-    <div style="position:relative;">
+    <div  style="position:relative;">
       <div
         style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;"
       >
@@ -58,21 +69,23 @@
         <br>
         <br>
         <br>
-        <h5>Red Velvet</h5>On March 11, 2015, before the announcement of the release of mini-album Ice Cream Cake, Yeri was introduced as a new addition to the group. The mini-album marks as her first appearance.
+        <h5 >Red Velvet</h5>On March 11, 2015, before the announcement of the release of mini-album Ice Cream Cake, Yeri was introduced as a new addition to the group. The mini-album marks as her first appearance.
         From May 9 to November 14, 2015, with labelmate Minho from SHINee and N from VIXX, she hosted MBC's music program, Show! Music Core
       </div>
     </div>
 
     <div class="bgimg-5">
       <div class="caption">
+          <div data-aos="fade-up-left">
         <span
           class="border"
           style="background-color:transparent;font-size:25px;color: #f7f7f7;"
         >PROFILE</span>
+        </div>
       </div>
     </div>
 
-    <div style="position:relative;">
+    <div  style="position:relative;">
       <div
         style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;"
       >
@@ -118,19 +131,24 @@
 
     <div class="bgimg-6">
       <div class="caption">
-        <span
+          <div data-aos="zoom-out-down">
+        <span 
           class="border"
-          style="background-color:transparent;font-size:25px;color: #f7f7f7;"
+          style="background-color:transparent;font-size:25px;color: black;"
         >TV-Appearances</span>
+      </div>
       </div>
     </div>
 
-    <div style="position:relative;">
+    <div  style="position:relative;">
       <div
         style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;"
       >
+      <div data-aos="fade-up"
+     data-aos-duration="3000">
+
       <iframe width="100%" height="500px" src="/Appearances/Joy"></iframe>
-      
+      </div>
       </div>
     </div>
   </div>
@@ -138,6 +156,13 @@
 
 
 <script>
+
+
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
+
 import membersShowcase from "./membersShowcase";
 import Parallax from "vue-parallaxy";
 export default {};

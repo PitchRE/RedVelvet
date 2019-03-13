@@ -27,8 +27,11 @@
                 <p class="members">Wendy</p>
             </slide>
             <slide :index="4">
+                    <router-link to="/Yeri" tag="div">
                 <img class="carouselImg" src="images/yeri.jpg" />
+                   </router-link>
                 <p id="mdo" class="members">Yeri</p>
+                
             </slide>
         </carousel-3d>
     </div>

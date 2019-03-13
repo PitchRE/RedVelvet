@@ -24,6 +24,7 @@
         "vue-template-compiler": "^2.6.8"
     },
     "dependencies": {
+        "aos": "^2.3.4",
         "bootstrap-vue": "^2.0.0-rc.13",
         "hls.js": "^0.12.2",
         "hooper": "0.0.9",

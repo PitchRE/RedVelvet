@@ -10,7 +10,7 @@
       <div class="container">
         <div class="headlines">
         </div>
-        <h3 style="text-align: left;">About</h3>
+        <h3 style="text-align: left; color:white;">About</h3>
         <div id="vueApp">
         </div>
         <div style="text-align: left;">
