@@ -3,7 +3,6 @@
 <template>
 
   <div>
-      
     <div class="bgimg-4">
       <div class="caption">
           <div data-aos="fade-up">
@@ -23,6 +22,7 @@
       <h3 style="text-align:center;">Kim Ye-ri</h3>
       <p>Kim Ye-rim (Hangul: 김예림, born March 5, 1999), better known by her stage name, Yeri, is a South-Korean singer-songwriter, dancer, rapper and television personality. She is the sub vocalist, sub dancer and sub rapper of the South-Korean girl group Red Velvet and was introduced to the group as a new addition on March 11, 2015</p>
    </div>
+
     </div>
 
     <div class="bgimg-2">
@@ -150,13 +150,31 @@
       <iframe width="100%" height="500px" src="/Appearances/Joy"></iframe>
       </div>
       </div>
+
+          <div class="bgimg-7">
+      <div class="caption">
+          <div data-aos="fade-up-left">
+        <span
+          class="border"
+          style="background-color:transparent;font-size:25px;color: #f7f7f7;"
+        >Covers</span>
+        </div>
+      </div>
+    </div>
+        <div  style="position:relative;">
+      <div
+        style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;"
+      >
+             <yeriMusicShowcase></yeriMusicShowcase>
+      </div>
+    </div>
+
     </div>
   </div>
 </template>
 
 
 <script>
-
 
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
@@ -165,7 +183,12 @@ AOS.init();
 
 import membersShowcase from "./membersShowcase";
 import Parallax from "vue-parallaxy";
-export default {};
+import yeriMusicShowcase from "./yeriMusicShowcase"
+export default {
+  components: {
+    yeriMusicShowcase
+  },
+};
 </script>
 <style>
 ul {
@@ -186,7 +209,8 @@ html {
 .bgimg-3,
 .bgimg-4,
 .bgimg-5,
-.bgimg-6 {
+.bgimg-6,
+.bgimg-7 {
   position: relative;
   background-attachment: fixed;
   background-position: center;
@@ -199,7 +223,7 @@ html {
 }
 
 .bgimg-2 {
-  background-image: url("/images/yeriDiary2.jpg");
+  background-image: url("/images/yeriDiary3.jpg");
   min-height: 400px;
 }
 
@@ -208,6 +232,7 @@ html {
   min-height: 400px;
 }
 .bgimg-4 {
+  background-image: url("/images/yeriDiary5.jpg");
   min-height: 400px;
 }
 
@@ -218,6 +243,10 @@ html {
 
 .bgimg-6 {
   background-image: url("/images/yeri7.jpg");
+  min-height: 400px;
+}
+.bgimg-7 {
+  background-image: url("/images/yeriDiary6.jpg");
   min-height: 400px;
 }
 
