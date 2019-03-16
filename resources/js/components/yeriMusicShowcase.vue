@@ -20,21 +20,24 @@
   <source src="audio/yeri/Yeri- 깊이 아래로 (Down deeply).mp3" type="audio/mpeg">
   </audio>
             </slide>
-                        <slide :index="2">
-               <audio controls>
-  <source src="https://ccrma.stanford.edu/~jos/mp3/harpsi-cs.mp3" type="audio/mpeg">
+            <slide :index="2">
+                  <img class="carouselImg" src="audio/yeri/Those Days (without you).jpg" />
+               <audio style="margin-top:10px" controls>
+  <source src="audio/yeri/Those Days (without you).mp3" type="audio/mpeg">
 </audio>
 
             </slide>
-                        <slide :index="3">
-               <audio controls>
-  <source src="https://ccrma.stanford.edu/~jos/mp3/harpsi-cs.mp3" type="audio/mpeg">
+            <slide :index="3">
+                  <img class="carouselImg" src="audio/yeri/Those Days (without you).jpg" />
+               <audio style="margin-top:10px" controls>
+  <source src="audio/yeri/Those Days (without you).mp3" type="audio/mpeg">
 </audio>
 
             </slide>
-                        <slide :index="4">
-               <audio controls>
-  <source src="https://ccrma.stanford.edu/~jos/mp3/harpsi-cs.mp3" type="audio/mpeg">
+            <slide :index="4">
+                  <img class="carouselImg" src="audio/yeri/Those Days (without you).jpg" />
+               <audio style="margin-top:10px" controls>
+  <source src="audio/yeri/Those Days (without you).mp3" type="audio/mpeg">
 </audio>
 
             </slide>
