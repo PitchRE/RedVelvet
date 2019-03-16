@@ -51,7 +51,7 @@
     };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .carouselImg{
     border: 3px solid white;
 }
