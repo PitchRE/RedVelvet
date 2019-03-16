@@ -80,7 +80,7 @@
       <b-row>
         <b-col>
           <div class="p-1" v-if="isHidden">
-            <iframe width="100%" height="300px" src="/Joy/Achievements"></iframe>
+            <iframe width="100%" height="300px" src="/Achievements/Joy"></iframe>
           </div>
           <div class="p-1" v-if="isHidden2">
             <iframe width="100%" height="500px" src="/Appearances/Joy"></iframe>
