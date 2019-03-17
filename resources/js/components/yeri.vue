@@ -183,13 +183,13 @@
         style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;"
       >
         <div data-aos="fade-up" data-aos-duration="3000">
-          <iframe width="100%" height="500px" src="/Achievements/Joy"></iframe>
+          <iframe width="100%" height="500px" src="/Achievements/Yeri"></iframe>
         </div>
       </div>
        </div>
     
   </div>
-</template>
+</template> 
 
 
 <script>
