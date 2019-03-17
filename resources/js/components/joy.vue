@@ -80,7 +80,7 @@
       <b-row>
         <b-col>
           <div class="p-1" v-if="isHidden">
-            <iframe width="100%" height="300px" src="/Joy/Achievements"></iframe>
+            <iframe width="100%" height="300px" src="/Achievements/Joy"></iframe>
           </div>
           <div class="p-1" v-if="isHidden2">
             <iframe width="100%" height="500px" src="/Appearances/Joy"></iframe>
@@ -90,7 +90,8 @@
       <b-row>
         <b-col>
         <joyFacts></joyFacts>
-          <div v-if="isHidden3">
+          <div class="reee" v-if="isHidden3">
+            
             <joyTimeline></joyTimeline>
           </div>
         </b-col>
@@ -132,6 +133,10 @@ export default {
 };
 </script>
 <style>
+
+.reee{
+        background-color: rgba(4, 19, 36, 0.664);
+}
 
 .checkboxjoy{
   font-family: Arial, Helvetica, sans-serif !important;

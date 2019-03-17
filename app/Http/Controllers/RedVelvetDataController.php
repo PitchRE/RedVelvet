@@ -17,21 +17,58 @@ class RedVelvetDataController extends Controller
         //
     }
 
-    public function JoyDataAchiv(){
+    public function RVDataAchiv($who){
 
-       $data = \DB::table('joy_achievement')->get();
-       $result = json_decode($data, true);
+    if($who == 'RedVelvet'){
+        $data = \DB::table('achievement')->get();
+        $result = json_decode($data, true);
+    return view("RedVelvet.achievements", compact('result'));
+} else if($who == 'Joy'){
 
-        return view("Joy.achievements", compact('result'));
+    $data = \DB::table('achievement')->where('joy', 1)->get();
+    $result = json_decode($data, true);
+return view("RedVelvet.achievements", compact('result'));
+} else if($who == 'Irene'){
+
+    $data = \DB::table('achievement')->where('irene', 1)->get();
+    $result = json_decode($data, true);
+return view("RedVelvet.achievements", compact('result'));
+}
+else if($who == 'Wendy'){
+
+    $data = \DB::table('achievement')->where('wendy', 1)->get();
+    $result = json_decode($data, true);
+return view("RedVelvet.achievements", compact('result'));
+}
+else if($who == 'Yeri'){
+
+    $data = \DB::table('achievement')->where('yeri', 1)->get();
+    $result = json_decode($data, true);
+return view("RedVelvet.achievements", compact('result'));
+}else if($who == 'Seulgi'){
+
+    $data = \DB::table('achievement')->where('seulgi', 1)->get();
+    $result = json_decode($data, true);
+return view("RedVelvet.achievements", compact('result'));
+} else {
+    abort(404);
+}
     }
 
-    public function RedVelvetTVnative(){
+    public function RVDataAchivnative(){
+
+        $data = \DB::table('achievement')->get();
+        $result = json_decode($data, true);
+    return view("RedVelvet.achievement", compact('result'));
+     }
+ 
+
+     public function RedVelvetTVnative(){
 
         $data = \DB::table('tv_appearances')->get();
         $result = json_decode($data, true);
     return view("RedVelvet.tv_appearances", compact('result'));
      }
- 
 
 
     public function RedVelvetTV($who){

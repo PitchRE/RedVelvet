@@ -10,7 +10,7 @@
         >
             <slide :index="0">
                 <router-link to="/Joy" tag="div">
-                    <img class="carouselImg" src="images/joy.jpg" />
+                    <img style="cursor: pointer;" class="carouselImg" src="images/joy.jpg" />
                 </router-link>
                 <p class="members">Joy</p>
             </slide>
@@ -27,8 +27,11 @@
                 <p class="members">Wendy</p>
             </slide>
             <slide :index="4">
-                <img class="carouselImg" src="images/yeri.jpg" />
+                    <router-link to="/Yeri" tag="div">
+                    <img style="cursor: pointer;" class="carouselImg" src="images/yeri.jpg" />
+                   </router-link>
                 <p id="mdo" class="members">Yeri</p>
+                
             </slide>
         </carousel-3d>
     </div>

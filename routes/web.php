@@ -16,7 +16,8 @@ Route::get('/', function () {
 });
 
 
-Route::get('/Joy/Achievements', 'RedVelvetDataController@JoyDataAchiv');
+Route::get('/Achievements/{who}', 'RedVelvetDataController@RVDataAchiv');
+Route::get('/Achievements', 'RedVelvetDataController@RVDataAchivnative');
 
 
 Route::get('/Appearances', 'RedVelvetDataController@RedVelvetTVnative');
