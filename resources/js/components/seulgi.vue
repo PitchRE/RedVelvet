@@ -9,7 +9,7 @@
             data-aos-anchor-placement="center-center"
             class="border"
             style="background-color:transparent;font-size:25px;color: #f7f7f7; text-decoration: underline;"
-          >Yeri</span>
+          >Seulgi</span>
         </div>
       </div>
     </div>
