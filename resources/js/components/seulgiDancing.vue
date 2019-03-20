@@ -15,7 +15,7 @@
   <b-embed
     type="iframe"
     aspect="16by9"
-    src="https://www.youtube.com/embed/Mk2UazWU41w?autoplay=0&showinfo=0&controls=0"
+    src="https://www.youtube.com/embed/Mk2UazWU41w?autoplay=0"
     allowfullscreen
   />
 </div>
@@ -25,31 +25,31 @@
   <b-embed
     type="iframe"
     aspect="16by9"
-    src="https://www.youtube.com/embed/RJDkUdWTaIQ?autoplay=0&showinfo=0&controls=0"
+    src="https://www.youtube.com/embed/RJDkUdWTaIQ?autoplay=0"
     allowfullscreen
   />
 </div>
 
             </slide>
-                        </slide>
+                     
                         <slide :index="2">
           <div>
   <b-embed
     type="iframe"
     aspect="16by9"
-    src="https://www.youtube.com/embed/2SO-qLst3po?autoplay=0&showinfo=0&controls=0"
+    src="https://www.youtube.com/embed/2SO-qLst3po?autoplay=0"
     allowfullscreen
   />
 </div>
 
             </slide>
-                        </slide>
+                   
                         <slide :index="3">
           <div>
   <b-embed
     type="iframe"
     aspect="16by9"
-    src="https://www.youtube.com/embed/kUduifm4x98?autoplay=0&showinfo=0&controls=0"
+    src="https://www.youtube.com/embed/kUduifm4x98?autoplay=0"
     allowfullscreen
   />
 </div>

@@ -140,6 +140,3 @@
   }
 </style>
 
-<style>
-
-</style>
