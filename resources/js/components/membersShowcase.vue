@@ -15,7 +15,9 @@
                 <p class="members">Joy</p>
             </slide>
             <slide :index="1">
-                <img class="carouselImg" src="images/seulgi.jpg" />
+                 <router-link to="/Seulgi" tag="div">
+                   <img style="cursor: pointer;" class="carouselImg" src="images/seulgi.jpg" />
+                         </router-link>
                 <p class="members">Seulgi</p>
             </slide>
             <slide :index="2">

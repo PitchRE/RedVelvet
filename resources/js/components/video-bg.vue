@@ -6,7 +6,7 @@
 
     <video class="visible-desktop" id="hero-vid" autoplay loop muted>
       <source type="video/mp4" src="videos/powerup.mp4">
-      </source>
+     
     </video>
 </div>
 </template>

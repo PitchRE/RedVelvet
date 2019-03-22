@@ -3,6 +3,7 @@ import videobg from "./components/video-bg.vue";
 import HelloWorld from "./components/HelloWorld.vue";
 import Joy from "./components/joy.vue";
 import Yeri from "./components/yeri.vue";
+import Seulgi from "./components/seulgi.vue";
 
 
 export const routes = [
@@ -17,6 +18,10 @@ export const routes = [
     {
         path: "/Yeri",
         component: Yeri
+    },
+    {
+        path: "/Seulgi",
+        component: Seulgi
     },
     {
         path: "/*",
