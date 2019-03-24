@@ -26,7 +26,7 @@
             </slide>
             <slide :index="3">
                  <router-link to="/Wendy" tag="div">
-                <img class="carouselImg" src="images/wendy.jpg" />
+                <img style="cursor: pointer;" class="carouselImg" src="images/wendy.jpg" />
                  </router-link>
                 <p class="members">Wendy</p>
                 

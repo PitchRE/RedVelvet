@@ -115,7 +115,7 @@
 <style scoped lang="scss">
     .carousel-3d-container .carousel-3d-slide {
         padding: 20px;
-        background-color: rgba(252, 252, 252, 0.39);
+        background-color: rgba(226, 219, 226, 0.507);
     }
 </style>
 
