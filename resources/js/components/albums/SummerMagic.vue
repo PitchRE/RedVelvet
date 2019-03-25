@@ -281,7 +281,7 @@ export default {
           Lenght: "3:22"
         },
         {
-          Number: 1,
+          Number: 2,
           Title: "With You (Hangul: 한 여름의 크리스마스)",
           Lyrics: "January 8th, Song Carrot (Jam Factory)",
           Music:
@@ -290,7 +290,7 @@ export default {
           Lenght: "3:27"
         },
         {
-          Number: 1,
+          Number: 3,
           Title: "Mr. E",
           Lyrics: "Kenzie",
           Music: "TrinityKenzieCourtney Woolsey",
@@ -298,7 +298,7 @@ export default {
           Lenght: "3:38"
         },
         {
-          Number: 1,
+          Number: 4,
           Title: "Mosquito",
           Lyrics: "	Seo Ji-eum",
           Music: "Teddy RileyLee Hyun-seungDOMDaniel Obi KleinYlva Dimberg",
@@ -306,7 +306,7 @@ export default {
           Lenght: "3:11"
         },
         {
-          Number: 1,
+          Number: 5,
           Title: "Hit That Drum",
           Lyrics: "Misfit",
           Music:
@@ -316,17 +316,7 @@ export default {
           Lenght: "3:12"
         },
         {
-          Number: 1,
-          Title: "Hit That Drum",
-          Lyrics: "Misfit",
-          Music:
-            "Ronny SvendsenNermin HarambasicAnne Judith WikBlair MacKichan",
-          Arrangements:
-            "Ronny SvendsenNermin HarambasicAnne Judith WikBlair MacKichan",
-          Lenght: "3:12"
-        },
-        {
-          Number: 1,
+          Number: 6,
           Title: "Blue Lemonade",
           Lyrics: "Seo Ji-eum",
           Music: "Lee Joo-hyung (Monotree)NOPARICazzi Opeia",
@@ -334,7 +324,7 @@ export default {
           Lenght: "3:16"
         },
         {
-          Number: 1,
+          Number: 7,
           Title: "Bad Boy (English version) (bonus track)",
           Lyrics: "	Whitney Phillips",
           Music: "The StereotypesMaxx SongWhitney PhillipsYoo Young-jin",
