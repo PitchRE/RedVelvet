@@ -256,91 +256,77 @@
         </b-col>
       </b-row>
     </b-container>
-    <b-container>
-      <b-collapse id="collapse2">
-        <b-row>
-          <v-footer height="auto" :fixed="true" color="#2581e8">
-            <v-card class="flex" flat tile>
-              <v-card-title class="justify-center">
-                 <b-col xs="6" sm="4" md="2" xl="4" >
-                <strong class="subheading">
-                  <router-link tag="li" to="/SummerMagic">
-                    <b-img
-                      thumbnail
-                      style="width:30%; width: 90px;
-    height: 90px;
-    margin: auto;    
-    display: block;"
-                      class="img-center"
-                      src="/images/covers/Summer_Magic.jpg"
-                      alt="Responsive image"
-                    />
-                    <br>
-                    <a style="color:#2581e8">#Cookie Jar</a>
-                    <br>July 4, 2018
-                    <br>
-                    <br>
-                  </router-link>
-                </strong>
-                 </b-col>
-  <b-col xs="6" sm="4" md="4" xl="4" >
-                <strong class="subheading">
-                  <router-link tag="li" to="/SummerMagic">
-           <b-img
-                      thumbnail
-                      style="width:30%; width: 90px;
-    height: 90px;
-    margin: auto;    
-    display: block;"
-                      class="img-center"
-                      src="/images/covers/Summer_Magic.jpg"
-                      alt="Responsive image"
-                    />
-                    <br>
-                    <a style="color:#2581e8">Summer Magic</a>
-                    <br>August 6, 2018
-                    <br>
-                    <br>
-                  </router-link>
-                </strong>
-                   </b-col>
-    <b-col xs="6" sm="4" md="4" xl="4" >
-                <strong class="subheading">
-                  <router-link tag="li" to="/SummerMagic">
-      <b-img
-                      thumbnail
-                      style="width:30%; width: 90px;
-    height: 90px;
-    margin: auto;    
-    display: block;"
-                      class="img-center"
-                      src="/images/covers/Summer_Magic.jpg"
-                      alt="Responsive image"
-                    />
-                    <br>
-                    <a style="color:#2581e8">Really Bad Boy</a>
-                    <br>November 30, 2018
-                    <br>
-                    <br>
-                  </router-link>
-                </strong>
-                   </b-col>
-              </v-card-title>
-            </v-card>
-          </v-footer>
-        </b-row>
-      </b-collapse>
-
+    <b-collapse id="collapse2">
       <v-footer height="auto" :fixed="true" color="#2581e8">
         <v-card class="flex" flat tile>
-          <v-card-actions
-            v-b-toggle.collapse2
-            style="background-color:#2581e8"
-            class="justify-center"
-          >&copy;2019</v-card-actions>
+          <v-card-title class="justify-center">
+              <b-col>
+            <strong class="subheading">
+              <router-link tag="li" to="/SummerMagic">
+                <b-img
+                  thumbnail
+                  style="width:50%; align:center"
+                  class="img-center"
+                  src="/images/covers/Summer_Magic.jpg"
+                  alt="Responsive image"
+                />
+                <br>
+                <a style="color:#2581e8">#Cookie Jar</a>
+                <br>July 4, 2018
+                <br>
+                <br>
+              </router-link>
+            </strong>
+              </b-col>
+  <b-col>
+            <strong class="subheading">
+              <router-link tag="li" to="/SummerMagic">
+                <b-img
+                  thumbnail
+                  style="width:50%; align:center"
+                  class="img-center"
+                  src="/images/covers/Summer_Magic.jpg"
+                  alt="Responsive image"
+                />
+                <br>
+                <a style="color:#2581e8">Summer Magic</a>
+                <br>August 6, 2018
+                <br>
+                <br>
+              </router-link>
+            </strong>
+              </b-col>
+           <b-col>
+            <strong class="subheading">
+              <router-link tag="li" to="/SummerMagic">
+                <b-img
+                  thumbnail
+                  style="width:50%; align:center"
+                  class="img-center"
+                  src="/images/covers/Summer_Magic.jpg"
+                  alt="Responsive image"
+                />
+                <br>
+                <a style="color:#2581e8">Really Bad Boy</a>
+                <br>November 30, 2018
+                <br>
+                <br>
+              </router-link>
+            </strong>
+              </b-col>
+          </v-card-title>
         </v-card>
       </v-footer>
-    </b-container>
+    </b-collapse>
+    <v-footer height="auto" :fixed="true" color="#2581e8">
+      <v-card class="flex" flat tile>
+        <v-card-actions
+          v-b-toggle.collapse2
+          style="background-color:#2581e8"
+          class="justify-center"
+        >&copy;2019</v-card-actions>
+      </v-card>
+    </v-footer>
   </div>
 </template>
 
