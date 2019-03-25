@@ -239,9 +239,7 @@
     </b-row>
     <b-container>
       <b-row>
-     
         <b-col class="bio top-bufferStart">
-  
           <b-img
             thumbnail
             src="/images/redvelvet_summermagic_04.jpg"
@@ -258,6 +256,33 @@
         </b-col>
       </b-row>
     </b-container>
+
+    <v-footer height="auto" :fixed="true" color="#2581e8">
+      <v-card class="flex" flat tile>
+        <v-card-title class="justify-center">
+          <strong class="subheading">
+            <router-link tag="li" to="/SummerMagic">
+              <a style="color:#2581e8">#Cookie Jar</a><br> July 4, 2018&emsp;&emsp;&emsp;&emsp;
+            </router-link>
+          </strong>
+          <strong class="subheading">
+            <router-link tag="li" to="/SummerMagic">
+              <a style="color:#2581e8">Summer Magic</a><br> 	August 6, 2018 &emsp;&emsp;&emsp;&emsp;
+            </router-link>
+          </strong>
+          <strong class="subheading">
+            <router-link tag="li" to="/SummerMagic">
+              <a style="color:#2581e8">Really Bad Boy</a><br> November 30, 2018 
+            </router-link>
+          </strong>
+        </v-card-title>
+
+        <v-card-actions style="background-color:#2581e8" class="justify-center">
+          &copy;2019 
+
+        </v-card-actions>
+      </v-card>
+    </v-footer>
   </div>
 </template>
 
@@ -276,8 +301,8 @@ export default {
           Title: "Power Up",
           Lyrics: "Kenzie",
           Music:
-            "Amanda SalsabilaEllen Berg TollbomCazzi OpeiaJonatan GusmarkLudvig Evers a.k.a. Moonshine",
-          Arrangements: "Jonatan GusmarkLudvig Evers a.k.a. Moonshine",
+            "Amanda Salsabila Ellen Berg Tollbom Cazzi Opeia Jonatan Gusmark Ludvig Evers a.k.a. Moonshine",
+          Arrangements: "Jonatan Gusmark Ludvig Evers a.k.a. Moonshine",
           Lenght: "3:22"
         },
         {
@@ -285,15 +310,16 @@ export default {
           Title: "With You (Hangul: 한 여름의 크리스마스)",
           Lyrics: "January 8th, Song Carrot (Jam Factory)",
           Music:
-            "Nermin HarambasicAnne Judith WikJin By JinHugo SolisGionata Caracciolo",
-          Arrangements: "Nermin HarambasicHugo SolisJin By JinAnne Judith Wik",
+            "Nermin Harambasic Anne Judith Wik Jin By Jin Hugo Solis Gionata Caracciolo",
+          Arrangements:
+            "Nermin Harambasic Hugo SolisJin By Jin Anne Judith Wik",
           Lenght: "3:27"
         },
         {
           Number: 3,
           Title: "Mr. E",
           Lyrics: "Kenzie",
-          Music: "TrinityKenzieCourtney Woolsey",
+          Music: "Trinity Kenzie Courtney Woolsey",
           Arrangements: "Trinity",
           Lenght: "3:38"
         },
@@ -301,7 +327,7 @@ export default {
           Number: 4,
           Title: "Mosquito",
           Lyrics: "	Seo Ji-eum",
-          Music: "Teddy RileyLee Hyun-seungDOMDaniel Obi KleinYlva Dimberg",
+          Music: "Teddy RileyLee Hyun-seung DOMDaniel Obi Klein Ylva Dimberg",
           Arrangements: "Teddy Riley",
           Lenght: "3:11"
         },
@@ -310,9 +336,9 @@ export default {
           Title: "Hit That Drum",
           Lyrics: "Misfit",
           Music:
-            "Ronny SvendsenNermin HarambasicAnne Judith WikBlair MacKichan",
+            "Ronny Svendsen Nermin Harambasic Anne Judith Wik Blair MacKichan",
           Arrangements:
-            "Ronny SvendsenNermin HarambasicAnne Judith WikBlair MacKichan",
+            "Ronny Svendsen Nermin Harambasic Anne Judith Wik Blair MacKichan",
           Lenght: "3:12"
         },
         {
@@ -327,7 +353,7 @@ export default {
           Number: 7,
           Title: "Bad Boy (English version) (bonus track)",
           Lyrics: "	Whitney Phillips",
-          Music: "The StereotypesMaxx SongWhitney PhillipsYoo Young-jin",
+          Music: "The Stereotypes Maxx SongWhitney PhillipsYoo Young-jin",
           Arrangements: "The Stereotypes",
           Lenght: "3:28"
         }
