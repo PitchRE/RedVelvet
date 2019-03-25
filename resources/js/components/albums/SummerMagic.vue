@@ -230,8 +230,9 @@
               <br>
 <b-container fluid>
 <b-row>
-  <b-col>
-              <b-table style="background-color:white" striped hover :items="items"/>
+  <b-col style="display: block !important;">
+  
+                  <b-table style="background-color:white" striped hover  responsive :items="items" />
   </b-col>
 </b-row>
 </b-container>
