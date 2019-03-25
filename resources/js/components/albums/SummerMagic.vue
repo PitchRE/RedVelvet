@@ -228,9 +228,13 @@
             <div id="vueApp"></div>
             <div style="text-align: left;">
               <br>
-
+<b-container fluid>
+<b-row>
+  <b-col>
               <b-table style="background-color:white" striped hover :items="items"/>
-
+  </b-col>
+</b-row>
+</b-container>
               <br>
             </div>
           </div>
