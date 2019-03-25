@@ -4,6 +4,7 @@ import HelloWorld from "./components/HelloWorld.vue";
 import Joy from "./components/joy.vue";
 import Yeri from "./components/yeri.vue";
 import Seulgi from "./components/seulgi.vue";
+import Wendy from "./components/wendy.vue";
 
 
 export const routes = [
@@ -22,6 +23,10 @@ export const routes = [
     {
         path: "/Seulgi",
         component: Seulgi
+    },
+    {
+        path: "/Wendy",
+        component: Wendy
     },
     {
         path: "/*",

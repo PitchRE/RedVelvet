@@ -25,8 +25,11 @@
                 <p class="members">Irene</p>
             </slide>
             <slide :index="3">
-                <img class="carouselImg" src="images/wendy.jpg" />
+                 <router-link to="/Wendy" tag="div">
+                <img style="cursor: pointer;" class="carouselImg" src="images/wendy.jpg" />
+                 </router-link>
                 <p class="members">Wendy</p>
+                
             </slide>
             <slide :index="4">
                     <router-link to="/Yeri" tag="div">
