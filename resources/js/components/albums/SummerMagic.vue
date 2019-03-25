@@ -228,14 +228,19 @@
             <div id="vueApp"></div>
             <div style="text-align: left;">
               <br>
-<b-container fluid>
-<b-row>
-  <b-col style="display: block !important;">
-  
-                  <b-table style="background-color:white" striped hover  responsive :items="items" />
-  </b-col>
-</b-row>
-</b-container>
+              <b-container fluid>
+                <b-row>
+                  <b-col style="display: block !important;">
+                    <b-table
+                      style="background-color:white"
+                      striped
+                      hover
+                      responsive
+                      :items="items"
+                    />
+                  </b-col>
+                </b-row>
+              </b-container>
               <br>
             </div>
           </div>
@@ -261,68 +266,71 @@
         </b-col>
       </b-row>
     </b-container>
+    <transition name="fade">
     <b-collapse id="collapse2">
+      
       <v-footer height="auto" :fixed="true" color="#2581e8">
         <v-card class="flex" flat tile>
           <v-card-title class="justify-center">
-              <b-col>
-            <strong class="subheading">
-              <router-link tag="li" to="/SummerMagic">
-                <b-img
-                  thumbnail
-                  style="width:50%; align:center"
-                  class="img-center"
-                  src="/images/covers/Summer_Magic.jpg"
-                  alt="Responsive image"
-                />
-                <br>
-                <a style="color:#2581e8">#Cookie Jar</a>
-                <br>July 4, 2018
-                <br>
-                <br>
-              </router-link>
-            </strong>
-              </b-col>
-  <b-col>
-            <strong class="subheading">
-              <router-link tag="li" to="/SummerMagic">
-                <b-img
-                  thumbnail
-                  style="width:50%; align:center"
-                  class="img-center"
-                  src="/images/covers/Summer_Magic.jpg"
-                  alt="Responsive image"
-                />
-                <br>
-                <a style="color:#2581e8">Summer Magic</a>
-                <br>August 6, 2018
-                <br>
-                <br>
-              </router-link>
-            </strong>
-              </b-col>
-           <b-col>
-            <strong class="subheading">
-              <router-link tag="li" to="/SummerMagic">
-                <b-img
-                  thumbnail
-                  style="width:50%; align:center"
-                  class="img-center"
-                  src="/images/covers/Summer_Magic.jpg"
-                  alt="Responsive image"
-                />
-                <br>
-                <a style="color:#2581e8">Really Bad Boy</a>
-                <br>November 30, 2018
-                <br>
-                <br>
-              </router-link>
-            </strong>
-              </b-col>
+            <b-col>
+              <strong class="subheading">
+                <router-link tag="li" to="/SummerMagic">
+                  <b-img
+                    thumbnail
+                    style="width:50%; align:center"
+                    class="img-center"
+                    src="/images/covers/Summer_Magic.jpg"
+                    alt="Responsive image"
+                  />
+                  <br>
+                  <a style="color:#2581e8">#Cookie Jar</a>
+                  <br>July 4, 2018
+                  <br>
+                  <br>
+                </router-link>
+              </strong>
+            </b-col>
+            <b-col>
+              <strong class="subheading">
+                <router-link tag="li" to="/SummerMagic">
+                  <b-img
+                    thumbnail
+                    style="width:50%; align:center"
+                    class="img-center"
+                    src="/images/covers/Summer_Magic.jpg"
+                    alt="Responsive image"
+                  />
+                  <br>
+                  <a style="color:#2581e8">Summer Magic</a>
+                  <br>August 6, 2018
+                  <br>
+                  <br>
+                </router-link>
+              </strong>
+            </b-col>
+            <b-col>
+              <strong class="subheading">
+                <router-link tag="li" to="/SummerMagic">
+                  <b-img
+                    thumbnail
+                    style="width:50%; align:center"
+                    class="img-center"
+                    src="/images/covers/Summer_Magic.jpg"
+                    alt="Responsive image"
+                  />
+                  <br>
+                  <a style="color:#2581e8">Really Bad Boy</a>
+                  <br>November 30, 2018
+                  <br>
+                  <br>
+                </router-link>
+              </strong>
+            </b-col>
           </v-card-title>
         </v-card>
       </v-footer>
     </b-collapse>
+     </transition>
     <v-footer height="auto" :fixed="true" color="#2581e8">
       <v-card class="flex" flat tile>
         <v-card-actions
@@ -337,7 +345,10 @@
 
 <script>
 import SummerMagicPhotocards from "./SummerMagicPhotocards";
-
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+// ..
+AOS.init();
 export default {
   components: {
     SummerMagicPhotocards
@@ -415,13 +426,20 @@ export default {
 
 <style scoped>
 
-html,body
-{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .1s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
 
 h1,
