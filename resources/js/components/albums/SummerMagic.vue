@@ -9,7 +9,7 @@
           <b-embed
             type="iframe"
             aspect="16by9"
-            src="http://www.youtube.com/embed/aiHSVQy9xN8"
+            src="https://www.youtube.com/embed/aiHSVQy9xN8"
             allowfullscreen
           />
         </b-col>
