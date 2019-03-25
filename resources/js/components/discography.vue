@@ -3,7 +3,7 @@
         <carousel-3d
             :controls-visible="true"
             dir="ltr"
-            startIndex="11"
+            startIndex="15"
             :inverse-scaling="1000"
             :space="500"
             autoplay
@@ -13,7 +13,9 @@
             display="8"
         >
             <slide :index="0">
+                    
                 <img class="carouselImg" src="images/covers/Happiness.jpg" />
+         
                 <p class="members">Happines</p>
             </slide>
             <slide :index="1">
@@ -79,7 +81,38 @@
                     class="carouselImg"
                     src="images/covers/Perfect_Velvet.jpg"
                 />
-                <p class="membersSmall">Perfect Velvet</p>
+                <p class="members">Perfect Velvet</p>
+            </slide>
+                        <slide :index="12">
+                <img
+                    class="carouselImg"
+                    src="images/covers/The_Perfect_Red_Velvet.jpg"
+                />
+                <p class="membersSmall">The Perfect Red Velvet</p>
+            </slide>
+                                   <slide :index="13">
+                <img
+                    class="carouselImg"
+                    src="images/covers/Cookie_Jar.jpg"
+                />
+                <p class="members">#Cookie Jar</p>
+            </slide>
+                                              <slide :index="14">
+                                                     <router-link to="/SummerMagic" tag="div">
+                <img
+                style="cursor: pointer;"
+                    class="carouselImg"
+                    src="images/covers/Summer_Magic.jpg"
+                />
+                                                     </router-link>
+                <p class="membersSmall">Summer Magic</p>
+            </slide>
+                                                        <slide :index="15">
+                <img
+                    class="carouselImg"
+                    src="images/covers/RBB.jpg"
+                />
+                <p class="membersSmall">Really Bad Boy</p>
             </slide>
         </carousel-3d>
     </div>
