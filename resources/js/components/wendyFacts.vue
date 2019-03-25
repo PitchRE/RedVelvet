@@ -115,15 +115,18 @@
 <style scoped lang="scss">
     .carousel-3d-container .carousel-3d-slide {
         padding: 20px;
-        background-color: rgba(226, 219, 226, 0.507);
+        background-color: rgba(247, 242, 247, 0);
+        border: none;
     }
 </style>
 
 <style>
     .facts {
-        color: #000;
+        color: rgb(248, 247, 247);
         font-size: 20px;
         font-weight: 500;
         text-align: center;
+        text-shadow: 2px 2px #000000;
     }
+
 </style>

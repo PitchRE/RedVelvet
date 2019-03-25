@@ -55,7 +55,7 @@
       <div
         style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;"
       >
-        <p>
+        <p class="bio">
           At the age of 12, Wendy and her sister, moved to live in the USA and later Canada. Whilst living in the North American continent, Wendy began using the name, Wendy Son and learnt to speak English, French and Spanish, alongside her native Korean.
           For her education in these countries, she attended Shattuck St Mary's School and Richmond High School.
         </p>
@@ -81,7 +81,7 @@
       <div
         style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;"
       >
-        <ul style="align:center">
+        <ul style="align:center" class="profile">
           <li>
             <b>Stage Name:</b> Wendy (웬디)
           </li>
@@ -144,10 +144,11 @@
         style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;"
       >
         <h4>S.M. Rookies</h4>
-        <br>
+        <br><p class="bio">
 Wendy was part of S.M. Entertainment's pre-debut group, S.M. Rookies, along with Red Velvet members Irene, Seulgi and Yeri.
         A clip of Wendy singing a cover of Taylor Swift's "Speak Now" was released on S.M. Entertainment's official Youtube channel.
         She also released a track Because I Love You, which was one of the soundtracks of the Mnet drama series, Mimi, which labelmate Changmin starred in, appearing in the music video as well.
+    </p>
       <br>
       <br>
         <h4>Red Velvet</h4>
@@ -167,14 +168,18 @@ Wendy was assigned to represent the color blue and chosen to be the main vocalis
         style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;"
       >
         <h4>Solo and Collaboration singing</h4>
+           <br><p class="bio">
         <br>Wendy has also collaborated with rapper Yuk Ji-dam for the song "Return", one of the OSTs of KBS2's drama Who Are You: School 2015. The song was released on June 8, 2015 and debuted at #31 on the Gaon Singles Chart.
         She released another song "Let You Know" for the soundtrack of the JTBC drama D-Day on October 16. On January 9, 2016, she became a panelist on We Got Married. On King of Mask Singer (episode 43 aired on January 24, 2016), she participated as a contestant with the stage name "Space Beauty Maetel". Wendy released a collaboration single with Eric Nam titled "Spring Love" on March 4, 2016, as part of S.M. Entertainment's SM Station project.
+     </p>
         <br>
         <br>
 
         <h4>Filmography</h4>
+           <br><p class="bio">
         <br>Since her debut, Wendy has appeared on the variety shows, We Got Married, King of Masked Singer, Trick and True, Raid the Convenience Store and Battle Trip.
         She made a cameo in the series, Descendants of the Sun and made an appearance in the documentary, SMTown: The Stage.
+     </p>
       </div>
     </div>
 
@@ -265,6 +270,16 @@ export default {
 };
 </script>
 <style scoped>
+
+    .profile{
+        text-shadow: 2px 2px #000000;
+    }
+
+        .bio{
+        text-shadow: 1px 1px #000000;
+        text-align: justify;
+    }
+
 ul {
   display: table;
   margin: 0 auto;
