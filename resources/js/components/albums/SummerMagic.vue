@@ -275,13 +275,14 @@
             <b-col>
               <strong class="subheading">
                 <router-link tag="li" to="/SummerMagic">
+                <router-link to="/">
                   <b-img
                     thumbnail
                     style="width:50%; align:center"
                     class="img-center"
                     src="/images/covers/Cookie_Jar.jpg"
                     alt="Responsive image"
-                  />
+                  /></router-link>
                   <br>
                   <a style="color:#2581e8">#Cookie Jar</a>
                   <br>July 4, 2018
@@ -293,13 +294,14 @@
             <b-col>
               <strong class="subheading">
                 <router-link tag="li" to="/SummerMagic">
+                    <router-link to="/">
                   <b-img
                     thumbnail
                     style="width:50%; align:center"
                     class="img-center"
                     src="/images/covers/Summer_Magic.jpg"
                     alt="Responsive image"
-                  />
+                  /></router-link>
                   <br>
                   <a style="color:#2581e8">Summer Magic</a>
                   <br>August 6, 2018
@@ -311,13 +313,14 @@
             <b-col>
               <strong class="subheading">
                 <router-link tag="li" to="/SummerMagic">
+                    <router-link to="/">
                   <b-img
                     thumbnail
                     style="width:50%; align:center"
                     class="img-center"
                     src="/images/covers/RBB.jpg"
                     alt="Responsive image"
-                  />
+                  /></router-link>
                   <br>
                   <a style="color:#2581e8">Really Bad Boy</a>
                   <br>November 30, 2018
