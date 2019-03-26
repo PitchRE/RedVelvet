@@ -279,7 +279,7 @@
                     thumbnail
                     style="width:50%; align:center"
                     class="img-center"
-                    src="/images/covers/Summer_Magic.jpg"
+                    src="/images/covers/Cookie_Jar.jpg"
                     alt="Responsive image"
                   />
                   <br>
@@ -315,7 +315,7 @@
                     thumbnail
                     style="width:50%; align:center"
                     class="img-center"
-                    src="/images/covers/Summer_Magic.jpg"
+                    src="/images/covers/RBB.jpg"
                     alt="Responsive image"
                   />
                   <br>
