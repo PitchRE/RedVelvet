@@ -1,44 +1,84 @@
 <template>
-    <div>
+      <div>
         <carousel-3d
-            :inverse-scaling="1500"  
-            :space="600"
-            :width="350"
-            :height="400"
+            :inverse-scaling="1000"
+            :space="800"
+            :width="640"
+            :height="360"
             id="cos"
+            :disable3d="true"
+            :controlsVisible="true"
+            :clickable="false"
         >
             <slide :index="0">
-                  <img class="carouselImg" src="audio/yeri/Those Days (without you).jpg" />
-               <audio style="margin-top:10px" controls>
-  <source src="audio/yeri/Those Days (without you).mp3" type="audio/mpeg">
-</audio>
+          <div>
+  <b-embed
+    type="iframe"
+    aspect="16by9"
+    src="https://www.youtube.com/embed/mE4hSQ7j0M?autoplay=0"
+    allowfullscreen
+  />
+</div>
+            </slide>
+                        <slide :index="1">
+          <div>
+  <b-embed
+    type="iframe"
+    aspect="16by9"
+    src="https://www.youtube.com/embed/3vKhnTAsLhE?autoplay=0"
+    allowfullscreen
+  />
+</div>
 
             </slide>
-            <slide :index="1">
-                  <img class="carouselImg" src="audio/yeri/Yeri- 깊이 아래로 (Down deeply).jpg" />
-               <audio style="margin-top:10px" controls>
-  <source src="audio/yeri/Yeri- 깊이 아래로 (Down deeply).mp3" type="audio/mpeg">
-  </audio>
-            </slide>
-            <slide :index="2">
-                  <img class="carouselImg" src="audio/yeri/Those Days (without you).jpg" />
-               <audio style="margin-top:10px" controls>
-  <source src="audio/yeri/Those Days (without you).mp3" type="audio/mpeg">
-</audio>
+                     
+                        <slide :index="2">
+          <div>
+  <b-embed
+    type="iframe"
+    aspect="16by9"
+    src="https://www.youtube.com/embed/sYNEqESIIaM?autoplay=0"
+    allowfullscreen
+  />
+</div>
 
             </slide>
-            <slide :index="3">
-                  <img class="carouselImg" src="audio/yeri/Those Days (without you).jpg" />
-               <audio style="margin-top:10px" controls>
-  <source src="audio/yeri/Those Days (without you).mp3" type="audio/mpeg">
-</audio>
+                   
+                        <slide :index="3">
+          <div>
+  <b-embed
+    type="iframe"
+    aspect="16by9"
+    src="https://www.youtube.com/embed/H4a-5BdZ5ck?autoplay=0"
+    allowfullscreen
+  />
+</div>
 
             </slide>
-            <slide :index="4">
-                  <img class="carouselImg" src="audio/yeri/Those Days (without you).jpg" />
-               <audio style="margin-top:10px" controls>
-  <source src="audio/yeri/Those Days (without you).mp3" type="audio/mpeg">
-</audio>
+                  
+                   
+                        <slide :index="4">
+          <div>
+  <b-embed
+    type="iframe"
+    aspect="16by9"
+    src="https://www.youtube.com/embed/jNRU5NPNAhw?autoplay=0"
+    allowfullscreen
+  />
+</div>
+
+            </slide>
+                            
+                   
+                        <slide :index="5">
+          <div>
+  <b-embed
+    type="iframe"
+    aspect="16by9"
+    src="https://www.youtube.com/embed/xDMLANstgGI?autoplay=0"
+    allowfullscreen
+  />
+</div>
 
             </slide>
         </carousel-3d>
@@ -46,21 +86,7 @@
 </template>
 
 <script>
-    export default {
-        components: {}
-    };
-</script>
-
-<style lang="scss" scoped>
-.carouselImg{
-    border: 3px solid white;
+export default {
+    
 }
-    .carousel-3d-container .carousel-3d-slide {
-        padding: 20px;
-        background-color: rgba(249, 249, 250, 0.048);
-    }
-</style>
-
-<style>
-
-</style>
+</script>
