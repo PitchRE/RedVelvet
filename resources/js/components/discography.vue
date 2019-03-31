@@ -108,11 +108,13 @@
                 <p class="membersSmall">Summer Magic</p>
             </slide>
                                                         <slide :index="15">
+                                                                    <router-link to="/RBB" tag="div">
                 <img
                     class="carouselImg"
                     src="images/covers/RBB.jpg"
                 />
                 <p class="membersSmall">Really Bad Boy</p>
+                    </router-link>
             </slide>
         </carousel-3d>
     </div>
