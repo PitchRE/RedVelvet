@@ -2,6 +2,16 @@
 
 <template>
   <div>
+            <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Red Velvet Wendy</title>
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="redvelvet.pro">
+    <meta name="twitter:title" content="Red Velvet Wendy">
+    <meta name="twitter:description" content="Red Velvet Wendy">
+    <meta name="twitter:image" content="/images/wendy2.jpg">
+</head>
     <div class="bgimg-4">
       <div class="caption">
         <div data-aos="fade-up">

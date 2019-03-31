@@ -5,7 +5,8 @@ import Joy from "./components/joy.vue";
 import Yeri from "./components/yeri.vue";
 import Seulgi from "./components/seulgi.vue";
 import Wendy from "./components/wendy.vue";
-import Album_SummerMagic from "./components/albums/SummerMagic.vue"
+import Album_SummerMagic from "./components/albums/SummerMagic.vue";
+import Album_RBB from "./components/albums/RBB.vue"
 
 
 export const routes = [
@@ -32,6 +33,10 @@ export const routes = [
     {
         path: "/SummerMagic",
         component: Album_SummerMagic
+    },
+    {
+        path: "/RBB",
+        component: Album_RBB
     },
     {
         path: "/*",

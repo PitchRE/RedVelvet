@@ -1,5 +1,16 @@
 <template>
   <div class="SummerMagic">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Red Velvet Summer Magic</title>
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="redvelvet.pro">
+    <meta name="twitter:title" content="Red Velvet Summer Magic ">
+    <meta name="twitter:description" content=" Summer Magic">
+    <meta name="twitter:image" content="/images/covers/Summer_Magic.jpg">
+</head>
+
     <b-container>
       <b-row>
         <b-col xl="4">
