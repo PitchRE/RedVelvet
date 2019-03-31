@@ -260,6 +260,7 @@ The album ranked fifth on Idolator's '10 Best K-Pop Albums Of 2018' list.
                       hover
                       responsive
                       :items="items"
+                      :fields="fields"
                     />
                   </b-col>
                 </b-row>
@@ -280,12 +281,6 @@ The album ranked fifth on Idolator's '10 Best K-Pop Albums Of 2018' list.
             alt="Responsive image"
           />
 
-          <b-img
-            thumbnail
-            src="/images/rbbAlbumCover2.jpg"
-            fluid-grow
-            alt="Responsive image"
-          />
         </b-col>
       </b-row>
     </b-container>
@@ -365,6 +360,39 @@ export default {
   },
   data() {
     return {
+       fields: [
+          {
+            key: 'Number',
+            sortable: true,
+     
+          },
+          {
+            key: 'Title',
+              class: 'other-column-class'
+        
+          },
+          {
+            key: 'Lyrics',
+                    class: 'other-column-class'
+   
+          },
+                          {
+            key: 'Music',
+            class: 'music-class'
+           
+  
+          },
+                    {
+            key: 'Arrangements',
+            class: 'other-column-class'
+            
+  
+          },
+                    {
+            key: 'Length',
+         
+          },
+        ],
       items: [
         {
           Number: 1,
@@ -373,17 +401,17 @@ export default {
           Music:
             "Kenzie, Timothy 'Bos' Bullock, Sara Forsberg, MZMC",
           Arrangements: "Bullock",
-          Lenght: "3:08"
+          Length: "3:08"
         },
         {
           Number: 2,
           Title: "Butterflies",
           Lyrics: "Jo Yoon Kyung",
           Music:
-            "Harvey Mason Jr., Michael Wyckoff, Joshua Golden, Patrick 'J. Que' Smith, Dewain Whitmore Jr., Britt Burton, Yoo Young-jin",
+            "Harvey Mason Jr, Michael Wyckoff, Joshua Golden, Patrick 'J. Que' Smith, Dewain Whitmore Jr., Britt Burton, Yoo Young-jin",
           Arrangements:
             "Mason, R!ot",
-          Lenght: "3:29"
+          Length: "3:29"
         },
         {
           Number: 3,
@@ -391,7 +419,7 @@ export default {
           Lyrics: "Kim In Hyung",
           Music: "LDN Noise, Deez, Ellen Berg Tollbom",
           Arrangements: "LDN Noise, Deez, Tollbom",
-          Lenght: "3:26"
+          Length: "3:26"
         },
         {
           Number: 4,
@@ -399,7 +427,7 @@ export default {
           Lyrics: "Kenzie",
           Music: "Kenzie, Moonshine, Anne Judith Wik",
           Arrangements: "Moonshine",
-          Lenght: "3:06"
+          Length: "3:06"
         },
         {
           Number: 5,
@@ -409,7 +437,7 @@ export default {
             "	Penomeco, Dem Jointz",
           Arrangements:
             "Dem Jointz",
-          Lenght: "3:04"
+          Length: "3:04"
         },
         {
           Number: 6,
@@ -417,7 +445,7 @@ export default {
           Lyrics: "Forsberg",
           Music: "Kenzie, Bullock, Forsberg",
           Arrangements: "Bullock",
-          Lenght: "3:08"
+          Length: "3:08"
         }
       ]
     };
@@ -504,4 +532,20 @@ a {
 .img-center {
   margin: 0 auto;
 }
+
+
+</style>
+
+
+<style>
+.music-class {
+   width: 35%;
+}
+
+.other-column-class {
+   width: 20%;
+}
+
+
+
 </style>
