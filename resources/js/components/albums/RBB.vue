@@ -1,20 +1,18 @@
 <template>
   <div class="RBB">
-    <head>
-
+  
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Red Velvet</title>
+    <title>Red Velvet RBB</title>
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="redvelvet.pro">
-    <meta name="twitter:title" content="Red Velvet">
+    <meta name="twitter:title" content="Red Velvet RBB ">
     <meta name="twitter:description" content="Really Bad Boy">
     <meta name="twitter:image" content="/images/covers/RBB.jpg">
-
 </head>
 
-    </head>
+
     <videobgrbb></videobgrbb>
     <b-container>
       <b-row>
