@@ -7,7 +7,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="redvelvet.pro">
     <meta name="twitter:title" content="Red Velvet Summer Magic ">
-    <meta name="twitter:description" content="Really Summer Magic">
+    <meta name="twitter:description" content=" Summer Magic">
     <meta name="twitter:image" content="/images/covers/Summer_Magic.jpg">
 </head>
 
