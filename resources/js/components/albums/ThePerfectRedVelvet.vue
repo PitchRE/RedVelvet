@@ -259,7 +259,7 @@ In South Korea, X Sports News called "Bad Boy" the perfect blend of the group's 
   <b-container>
     <b-row>
       <b-col class="bio top-bufferStart">
-        <b-img thumbnail src="/images/rbbAlbumCover1.jpg" fluid-grow alt="Responsive image"/>
+        <b-img thumbnail src="/images/ThePerfectRedVelvetAlbumCover1.jpg" fluid-grow alt="Responsive image"/>
       </b-col>
     </b-row>
   </b-container>
