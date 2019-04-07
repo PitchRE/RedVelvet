@@ -11,7 +11,7 @@
     <meta name="twitter:image" content="/images/covers/The_Perfect_Red_Velvet.jpg">
   </head>
 
-  <videobgrbb></videobgrbb>
+  <videobgThePerfectRedVelvet></videobgThePerfectRedVelvet>
   <b-container>
     <b-row>
       <b-col xl="4">
@@ -329,13 +329,13 @@ In South Korea, X Sports News called "Bad Boy" the perfect blend of the group's 
 import RBBPhotocards from "./RBBPhotocards.";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
-import videobgrbb from "./video-bg_rbb";
+import videobgThePerfectRedVelvet from "./video-bg_ThePerfectRedVelvet.vue";
 // ..
 AOS.init();
 export default {
   components: {
     RBBPhotocards,
-    videobgrbb
+    videobgThePerfectRedVelvet 
   },
   data() {
     return {
