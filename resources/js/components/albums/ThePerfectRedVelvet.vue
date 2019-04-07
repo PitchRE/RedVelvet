@@ -71,7 +71,7 @@
       <b-col xl="12">
         <b-img
           style="background-color:transparent"
-          src="/images/RBBArt1.png"
+          src="/images/ThePerfectRedVelvetArt1.png"
           fluid-grow
           alt="Responsive image"
         />
@@ -126,7 +126,7 @@
       <b-col xl="12">
         <b-img
           style="background-color:transparent"
-          src="/images/RBBArt2.png"
+          src="/images/ThePerfectRedVelvetArt2.png"
           fluid-grow
           alt="Responsive image"
         />
@@ -163,7 +163,7 @@
       <b-col xl="12">
         <b-img
           style="background-color:transparent"
-          src="/images/RBBArt3.png"
+    src="/images/ThePerfectRedVelvetArt3.png"
           fluid-grow
           alt="Responsive image"
         />
@@ -296,13 +296,13 @@ In South Korea, X Sports News called "Bad Boy" the perfect blend of the group's 
                       thumbnail
                       style="width:50%; align:center"
                       class="img-center"
-                      src="/images/covers/RBB.jpg"
+                      src="/images/covers/The_Perfect_Red_Velvet.jpg"
                       alt="Responsive image"
                     />
                   </router-link>
                   <br>
-                  <a style="color:#2581e8">Really Bad Boy</a>
-                  <br>November 30, 2018
+                  <a style="color:#2581e8">The Perfect Red Velvet</a>
+                  <br>January 29, 2018
                   <br>
                   <br>
                 </router-link>
@@ -317,7 +317,7 @@ In South Korea, X Sports News called "Bad Boy" the perfect blend of the group's 
     <v-card class="flex" flat tile>
       <v-card-actions
         v-b-toggle.collapse2
-        style="background-color:#eb6123 "
+        style="background-color:#840e1a "
         class="justify-center"
       >&copy;2019</v-card-actions>
     </v-card>
@@ -480,7 +480,7 @@ a {
   color: #fff;
 }
 .ParallaxContent {
-  background: none repeat scroll 0 0 #7c10ad;
+  background: none repeat scroll 0 0 #970b06;
   padding: 42px 0;
   color: #fff;
   border: 1px solid #3d3d3d;
