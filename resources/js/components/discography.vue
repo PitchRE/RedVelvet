@@ -84,10 +84,11 @@
                 <p class="members">Perfect Velvet</p>
             </slide>
                         <slide :index="12">
+                               <router-link to="/PerfectRedVelvet" tag="div">
                 <img
                     class="carouselImg"
                     src="images/covers/The_Perfect_Red_Velvet.jpg"
-                />
+                />           </router-link>
                 <p class="membersSmall">The Perfect Red Velvet</p>
             </slide>
                                    <slide :index="13">
@@ -95,6 +96,7 @@
                     class="carouselImg"
                     src="images/covers/Cookie_Jar.jpg"
                 />
+                
                 <p class="members">#Cookie Jar</p>
             </slide>
                                               <slide :index="14">
