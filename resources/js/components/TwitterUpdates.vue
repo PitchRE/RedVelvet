@@ -21,13 +21,13 @@ export default {
         .then(response => {
           // handle success
           this.Posts = JSON.parse(response.data);
-          console.log("test");
+          console.log("test 2");
         })
         .catch(function(error) {
           // handle error
           console.log("test");
           console.log(error);
-          console.log("test");
+          console.log("test 2");
         })
         .finally(function() {
           // always executed
