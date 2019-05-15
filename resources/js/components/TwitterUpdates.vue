@@ -1,7 +1,13 @@
 <template>
   <div class="container">
     <b-row>
-      <b-col lg="4" v-for="post in Posts" v-bind:key="post.id" v-html="post.html"></b-col>
+      <b-col
+        style="  background-color: rgba(194, 194, 206, 0.43); margin: 25px; border: solid blacl 3px; border-radius: 15px;"
+        lg="4"
+        v-for="post in Posts"
+        v-bind:key="post.id"
+        v-html="post.html"
+      ></b-col>
     </b-row>
   </div>
 </template>
@@ -37,3 +43,4 @@ export default {
   }
 };
 </script>
+
