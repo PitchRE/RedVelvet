@@ -6,15 +6,20 @@
         lg="4"
         v-for="post in Posts"
         v-bind:key="post.id"
-        v-html="post.html"
-      ></b-col>
+      >
+        <Tweet id="@{{ post.id }}"></Tweet>
+      </b-col>
     </b-row>
   </div>
 </template>
 
 
 <script>
+import { Tweet, Moment, Timeline } from "vue-tweet-embed";
 export default {
+  components: {
+    Tweet
+  },
   data: function() {
     return {
       Posts: [],
