@@ -46,7 +46,6 @@ class TwitterUpdatesController extends Controller
         $twitter_id = $request->input('twitter_id');
 
 
-
         $response = $client->request('GET', 'https://publish.twitter.com/oembed?url=https://twitter.com/Pitch/status/' . $twitter_id);
 
         $body = $response->getBody();
@@ -56,6 +55,7 @@ class TwitterUpdatesController extends Controller
 
         $TwitterRecord = new TwitterUpdates;
         $TwitterRecord->name = $twitter_name;
+        $TwitterRecord->twitter_id = $twitter_id;
         $TwitterRecord->html = $json['html'];
 
         $TwitterRecord->save();

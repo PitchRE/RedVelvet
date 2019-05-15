@@ -16,6 +16,7 @@ class CreateTwitterUpdatesTable extends Migration
         Schema::create('twitter_updates', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->text('name');
+            $table->text('twitter_id');
             $table->text('html');
             $table->timestamps();
         });

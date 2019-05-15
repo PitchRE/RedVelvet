@@ -11,17 +11,16 @@
     <meta name="twitter:description" content="Red Velvet content.">
     <meta name="twitter:image" content="/images/card.jpg">
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     <link href="{{ asset('./../css/app.css')}}" rel="stylesheet" />
 
 </head>
 <div id="app">
 
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
     <main-app></main-app>
-</div>
 
+</div>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <script src="{{ asset('../js/app.js')}}"></script>
 </body>
 
