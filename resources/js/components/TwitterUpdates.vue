@@ -17,7 +17,7 @@ export default {
   methods: {
     lastTwitterUpdates() {
       axios
-        .get("localhost:8000/api/twitter/return")
+        .get("redvelvet.pro/api/twitter/return")
         .then(response => {
           // handle success
           this.Posts = JSON.parse(response.data);
