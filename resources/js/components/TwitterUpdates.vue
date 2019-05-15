@@ -11,7 +11,8 @@
 export default {
   data: function() {
     return {
-      Posts: []
+      Posts: [],
+      item: null
     };
   },
   methods: {
@@ -20,7 +21,7 @@ export default {
         .get("https://redvelvet.pro/api/twitter/return")
         .then(response => {
           // handle success
-          this.Posts = response.data;
+          this.Posts = JSON.parse(response.data);
         })
         .catch(function(error) {
           // handle error

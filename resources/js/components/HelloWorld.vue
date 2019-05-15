@@ -12,7 +12,6 @@
   </head>
   <div class="ParallaxImage bg1">
     <div class="container">
-      <twitter-updates></twitter-updates>
       <h1>Red Velvet</h1>
     </div>
   </div>
@@ -86,6 +85,7 @@
                  color: #FFF;"
   >Discography</h1>
   <discography></discography>
+  <twitter-updates></twitter-updates>
 </div>
 </template>
 <script>
