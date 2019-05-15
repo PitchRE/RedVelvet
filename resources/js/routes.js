@@ -1,50 +1,49 @@
-import Home from "./components/Home.vue";
-import videobg from "./components/video-bg.vue";
-import HelloWorld from "./components/HelloWorld.vue";
-import Joy from "./components/joy.vue";
-import Yeri from "./components/yeri.vue";
-import Seulgi from "./components/seulgi.vue";
-import Wendy from "./components/wendy.vue";
-import Album_SummerMagic from "./components/albums/SummerMagic.vue";
-import Album_RBB from "./components/albums/RBB.vue"
-import Album_The_Perfect_Red_Velvet from "./components/albums/ThePerfectRedVelvet.vue"
-
+import Home from './components/Home.vue';
+import videobg from './components/video-bg.vue';
+import HelloWorld from './components/HelloWorld.vue';
+import Joy from './components/joy.vue';
+import Yeri from './components/yeri.vue';
+import Seulgi from './components/seulgi.vue';
+import Wendy from './components/wendy.vue';
+import Album_SummerMagic from './components/albums/SummerMagic.vue';
+import Album_RBB from './components/albums/RBB.vue';
+import Album_The_Perfect_Red_Velvet from './components/albums/ThePerfectRedVelvet.vue';
 
 export const routes = [
     {
-        path: "/",
+        path: '/',
         component: HelloWorld
     },
     {
-        path: "/Joy",
+        path: '/Joy',
         component: Joy
     },
     {
-        path: "/Yeri",
+        path: '/Yeri',
         component: Yeri
     },
     {
-        path: "/Seulgi",
+        path: '/Seulgi',
         component: Seulgi
     },
     {
-        path: "/Wendy",
+        path: '/Wendy',
         component: Wendy
     },
     {
-        path: "/SummerMagic",
+        path: '/SummerMagic',
         component: Album_SummerMagic
     },
     {
-        path: "/RBB",
+        path: '/RBB',
         component: Album_RBB
     },
     {
-        path: "/PerfectRedVelvet",
+        path: '/PerfectRedVelvet',
         component: Album_The_Perfect_Red_Velvet
     },
     {
-        path: "/*",
-        redirect: { name: "route-name" }
+        path: '/*',
+        redirect: { name: 'route-name' }
     }
 ];
