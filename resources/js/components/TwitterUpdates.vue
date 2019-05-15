@@ -17,10 +17,10 @@ export default {
   methods: {
     lastTwitterUpdates() {
       axios
-        .get("redvelvet.pro/api/twitter/return")
+        .get("https://redvelvet.pro/api/twitter/return")
         .then(response => {
           // handle success
-          console.log(response);
+          console.log(response.data);
         })
         .catch(function(error) {
           // handle error
