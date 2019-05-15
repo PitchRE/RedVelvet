@@ -47,7 +47,7 @@ class TwitterUpdatesController extends Controller
 
 
 
-        $response = $client->request('GET', `https://publish.twitter.com/oembed?url=https://twitter.com/Interior/status/$twitter_id`);
+        $response = $client->request('GET', 'https://publish.twitter.com/oembed?url=https://twitter.com/Pitch/status/' . $twitter_id);
 
         $body = $response->getBody();
 
