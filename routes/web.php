@@ -23,6 +23,9 @@ Route::get('/Achievements', 'RedVelvetDataController@RVDataAchivnative');
 Route::get('/Appearances', 'RedVelvetDataController@RedVelvetTVnative');
 Route::get('/Appearances/{who}', 'RedVelvetDataController@RedVelvetTV');
 
+Route::POST('/api/twitter/store', 'TwitterUpdatesController@store');
+Route::get('/api/twitter/return', 'TwitterUpdatesController@index');
 
-
-Route::get('/{any}', function () {return view('welcome');})->where('any', '(.*)');
+Route::get('/{any}', function () {
+    return view('welcome');
+})->where('any', '(.*)');
