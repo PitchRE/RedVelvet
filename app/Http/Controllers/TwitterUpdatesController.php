@@ -42,7 +42,7 @@ class TwitterUpdatesController extends Controller
     {
 
         //   $client = new \GuzzleHttp\Client();
-        // $twitter_name = $request->input('twitter_name');
+        $twitter_name = $request->input('twitter_name');
         $twitter_id = $request->input('twitter_id');
 
 
