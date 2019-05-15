@@ -47,15 +47,15 @@ class TwitterUpdatesController extends Controller
 
 
 
-        // $response = $client->request('GET', 'https://publish.twitter.com/oembed?url=https://twitter.com/Pitch/status/' . $twitter_id);
+        $response = $client->request('GET', 'https://publish.twitter.com/oembed?url=https://twitter.com/Pitch/status/' . $twitter_id);
 
-        // $body = $response->getBody();
+        $body = $response->getBody();
 
-        //  $json = json_decode($body, true);
+        $json = json_decode($body, true);
 
 
         $TwitterRecord = new TwitterUpdates;
-        $TwitterRecord->name = 'test';
+        $TwitterRecord->name = $twitter_name;
         $TwitterRecord->html = $twitter_id;
 
         $TwitterRecord->save();
