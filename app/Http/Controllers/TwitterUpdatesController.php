@@ -55,8 +55,8 @@ class TwitterUpdatesController extends Controller
 
 
         $TwitterRecord = new TwitterUpdates;
-        $TwitterRecord->name = 'test'
-        $TwitterRecord->html = '123456'
+        $TwitterRecord->name = 'test';
+        $TwitterRecord->html = '123456';
 
         $TwitterRecord->save();
 
