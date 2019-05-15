@@ -43,11 +43,11 @@ class TwitterUpdatesController extends Controller
 
         $client = new \GuzzleHttp\Client();
         $twitter_name = $request->input('twitter_name');
-        $twitter_url = $request->input('twitter_id');
+        $twitter_id = $request->input('twitter_id');
 
 
 
-        $response = $client->request('GET', 'https://publish.twitter.com/oembed?url=https://twitter.com/Interior/status/463440424141459456');
+        $response = $client->request('GET', `https://publish.twitter.com/oembed?url=https://twitter.com/Interior/status/$twitter_id`);
 
         $body = $response->getBody();
 
@@ -57,6 +57,10 @@ class TwitterUpdatesController extends Controller
         $TwitterRecord = new TwitterUpdates;
         $TwitterRecord->name = $twitter_name;
         $TwitterRecord->html = $json['html'];
+
+        $TwitterRecord->save();
+
+        return 1;
     }
 
     /**
