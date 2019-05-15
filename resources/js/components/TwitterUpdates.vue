@@ -20,7 +20,7 @@ export default {
         .get("https://redvelvet.pro/api/twitter/return")
         .then(response => {
           // handle success
-          console.log(response.data);
+          this.Posts = response.data;
         })
         .catch(function(error) {
           // handle error
