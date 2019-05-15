@@ -20,14 +20,11 @@ export default {
         .get("redvelvet.pro/api/twitter/return")
         .then(response => {
           // handle success
-          this.Posts = JSON.parse(response.data);
-          console.log("test 2");
+          console.log(response.data);
         })
         .catch(function(error) {
           // handle error
-          console.log("test");
           console.log(error);
-          console.log("test 2");
         })
         .finally(function() {
           // always executed
