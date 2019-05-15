@@ -41,22 +41,22 @@ class TwitterUpdatesController extends Controller
     public function store(Request $request)
     {
 
-        $client = new \GuzzleHttp\Client();
-        $twitter_name = $request->input('twitter_name');
-        $twitter_id = $request->input('twitter_id');
+        //   $client = new \GuzzleHttp\Client();
+        // $twitter_name = $request->input('twitter_name');
+        // $twitter_id = $request->input('twitter_id');
 
 
 
-        $response = $client->request('GET', 'https://publish.twitter.com/oembed?url=https://twitter.com/Pitch/status/' . $twitter_id);
+        // $response = $client->request('GET', 'https://publish.twitter.com/oembed?url=https://twitter.com/Pitch/status/' . $twitter_id);
 
-        $body = $response->getBody();
+        // $body = $response->getBody();
 
-        $json = json_decode($body, true);
+        //  $json = json_decode($body, true);
 
 
         $TwitterRecord = new TwitterUpdates;
-        $TwitterRecord->name = $twitter_name;
-        $TwitterRecord->html = $json['html'];
+        $TwitterRecord->name = 'test'
+        $TwitterRecord->html = '123456'
 
         $TwitterRecord->save();
 
