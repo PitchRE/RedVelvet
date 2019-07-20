@@ -14,72 +14,72 @@
         >
             <slide :index="0">
                     
-                <img class="carouselImg" src="images/covers/Happiness.jpg" />
+                <img class="carouselImg" src="images/covers/Happiness.webp" />
          
                 <p class="members">Happines</p>
             </slide>
             <slide :index="1">
-                <img class="carouselImg" src="images/covers/Be_Natural.jpg" />
+                <img class="carouselImg" src="images/covers/Be_Natural.webp" />
                 <p class="members">Be Natural</p>
             </slide>
             <slide :index="2">
                 <img
                     class="carouselImg"
-                    src="images/covers/Ice_Cream_Cake.jpg"
+                    src="images/covers/Ice_Cream_Cake.webp"
                 />
                 <p class="membersSmall">Ice Cream Cake</p>
             </slide>
             <slide :index="3">
-                <img class="carouselImg" src="images/covers/The_Red.jpg" />
+                <img class="carouselImg" src="images/covers/The_Red.webp" />
                 <p class="members">The Red</p>
             </slide>
             <slide :index="4">
                 <img
                     class="carouselImg"
-                    src="images/covers/Winter_Garden.jpg"
+                    src="images/covers/Winter_Garden.webp"
                 />
                 <p class="membersSmall">Winter Garden</p>
             </slide>
             <slide :index="5">
-                <img class="carouselImg" src="images/covers/The_Velvet.jpg" />
+                <img class="carouselImg" src="images/covers/The_Velvet.webp" />
                 <p class="members">The Velvet</p>
             </slide>
             <slide :index="6">
                 <img
                     class="carouselImg"
-                    src="images/covers/Russian_Roulette.jpg"
+                    src="images/covers/Russian_Roulette.webp"
                 />
                 <p class="membersSmall">Russian Roulette</p>
             </slide>
             <slide :index="7">
-                <img class="carouselImg" src="images/covers/Rookie.jpg" />
+                <img class="carouselImg" src="images/covers/Rookie.webp" />
                 <p class="members">Rookie</p>
             </slide>
             <slide :index="8">
                 <img
                     class="carouselImg"
-                    src="images/covers/SM STATION SEASON 2.jpg"
+                    src="images/covers/SM STATION SEASON 2.webp"
                 />
                 <p class="membersSmall">S.M. STATION SEASON 2</p>
             </slide>
             <slide :index="9">
                 <img
                     class="carouselImg"
-                    src="images/covers/The Red Summer.jpg"
+                    src="images/covers/The Red Summer.webp"
                 />
                 <p class="membersSmall">The Red Summer</p>
             </slide>
             <slide :index="10">
                 <img
                     class="carouselImg"
-                    src="images/covers/Station Season 2.jpg"
+                    src="images/covers/Station Season 2.webp"
                 />
                 <p class="membersSmall">Station Season 2</p>
             </slide>
             <slide :index="11">
                 <img
                     class="carouselImg"
-                    src="images/covers/Perfect_Velvet.jpg"
+                    src="images/covers/Perfect_Velvet.webp"
                 />
                 <p class="members">Perfect Velvet</p>
             </slide>
@@ -87,14 +87,14 @@
                                <router-link to="/PerfectRedVelvet" tag="div">
                 <img
                     class="carouselImg"
-                    src="images/covers/The_Perfect_Red_Velvet.jpg"
+                    src="images/covers/The_Perfect_Red_Velvet.webp"
                 />           </router-link>
                 <p class="membersSmall">The Perfect Red Velvet</p>
             </slide>
                                    <slide :index="13">
                 <img
                     class="carouselImg"
-                    src="images/covers/Cookie_Jar.jpg"
+                    src="images/covers/Cookie_Jar.webp"
                 />
                 
                 <p class="members">#Cookie Jar</p>
@@ -104,7 +104,7 @@
                 <img
                 style="cursor: pointer;"
                     class="carouselImg"
-                    src="images/covers/Summer_Magic.jpg"
+                    src="images/covers/Summer_Magic.webp"
                 />
                                                      </router-link>
                 <p class="membersSmall">Summer Magic</p>
@@ -113,7 +113,7 @@
                                                                     <router-link to="/RBB" tag="div">
                 <img
                     class="carouselImg"
-                    src="images/covers/RBB.jpg"
+                    src="images/covers/RBB.webp"
                 />
                 <p class="membersSmall">Really Bad Boy</p>
                     </router-link>

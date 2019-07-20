@@ -10,7 +10,7 @@
     <meta name="twitter:site" content="redvelvet.pro">
     <meta name="twitter:title" content="Red Velvet Yeri">
     <meta name="twitter:description" content="Red Velvet Yeri">
-    <meta name="twitter:image" content="/images/yeriDiary3.jpg">
+    <meta name="twitter:image" content="/images/yeriDiary3.webp">
 </head>
     <div class="bgimg-4">
       <div class="caption">
@@ -246,39 +246,39 @@ html {
   background-size: cover;
 }
 .bgimg-1 {
-  background-image: url("/images/yeri2.jpg");
+  background-image: url("/images/yeri2.webp");
   min-height: 100%;
 }
 
 .bgimg-2 {
-  background-image: url("/images/yeriDiary3.jpg");
+  background-image: url("/images/yeriDiary3.webp");
   min-height: 400px;
 }
 
 .bgimg-3 {
-  background-image: url("/images/yeri4.jpg");
+  background-image: url("/images/yeri4.webp");
   min-height: 400px;
 }
 .bgimg-4 {
-  background-image: url("/images/yeriDiary5.jpg");
+  background-image: url("/images/yeriDiary5.webp");
   min-height: 400px;
 }
 
 .bgimg-5 {
-  background-image: url("/images/yeri2.jpg");
+  background-image: url("/images/yeri2.webp");
   min-height: 400px;
 }
 
 .bgimg-6 {
-  background-image: url("/images/yeri7.jpg");
+  background-image: url("/images/yeri7.webp");
   min-height: 400px;
 }
 .bgimg-7 {
-  background-image: url("/images/yeriDiary6.jpg");
+  background-image: url("/images/yeriDiary6.webp");
   min-height: 400px;
 }
 .bgimg-8 {
-  background-image: url("/images/yeri9.jpg");
+  background-image: url("/images/yeri9.webp");
   min-height: 400px;
 }
 .caption {

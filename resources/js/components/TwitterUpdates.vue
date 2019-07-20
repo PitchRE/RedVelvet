@@ -3,7 +3,7 @@
     <b-row>
       <b-col
         style="margin: 25px; border: solid blacl 3px; border-radius: 15px;"
-        lg="4"
+        lg="2"
         v-for="Post in Posts"
         v-bind:key="Post.id"
       >

@@ -19,7 +19,7 @@ class TwitterUpdatesController extends Controller
     {
 
 
-        $twitterUpdates = TwitterUpdates::orderBy('id', 'DESC')->limit(6)->get()->toJson();
+        $twitterUpdates = TwitterUpdates::orderBy('id', 'DESC')->limit(8)->get()->toJson();
 
         return \Response::json($twitterUpdates);
     }

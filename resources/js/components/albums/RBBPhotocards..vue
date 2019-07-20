@@ -13,37 +13,37 @@
         >
             <slide :index="0">
              
-                    <img style="cursor: pointer;" class="carouselImg" src="images/joyrbbcard1.jpg" />
+                    <img style="cursor: pointer;" class="carouselImg" src="images/joyrbbcard1.webp" />
            
                 <p class="members">Joy</p>
             </slide>
             <slide :index="1">
          
-                   <img style="cursor: pointer;" class="carouselImg" src="images/joyrbbcard2.jpg" />
+                   <img style="cursor: pointer;" class="carouselImg" src="images/joyrbbcard2.webp" />
                     
                 <p class="members">Joy</p>
             </slide>
             <slide :index="2">
-                <img class="carouselImg" src="images/irenerbbcard1.jpg" />
+                <img class="carouselImg" src="images/irenerbbcard1.webp" />
                 <p class="members">Irene</p>
             </slide>
             <slide :index="3">
         
-                <img style="cursor: pointer;" class="carouselImg" src="images/irenerbbcard2.jpg" />
+                <img style="cursor: pointer;" class="carouselImg" src="images/irenerbbcard2.webp" />
               
                 <p class="members">Irene</p>
                 
             </slide>
             <slide :index="4">
                     
-                    <img style="cursor: pointer;" class="carouselImg" src="images/seulgirbbcard1.jpg" />
+                    <img style="cursor: pointer;" class="carouselImg" src="images/seulgirbbcard1.webp" />
           
                 <p id="mdo" class="members">Seulgi</p>
                 
             </slide>
                         <slide :index="5">
                     
-                    <img style="cursor: pointer;" class="carouselImg" src="images/seulgirbbcard2.jpg" />
+                    <img style="cursor: pointer;" class="carouselImg" src="images/seulgirbbcard2.webp" />
           
                 <p id="mdo" class="members">Seulgi</p>
                 
@@ -51,28 +51,28 @@
                        
                         <slide :index="6">
                     
-                    <img style="cursor: pointer;" class="carouselImg" src="images/wendyrbbcard1.jpg" />
+                    <img style="cursor: pointer;" class="carouselImg" src="images/wendyrbbcard1.webp" />
           
                 <p id="mdo" class="members">Wendy</p>
                 
             </slide>
                                  <slide :index="7">
                     
-                    <img style="cursor: pointer;" class="carouselImg" src="images/wendyrbbcard2.jpg" />
+                    <img style="cursor: pointer;" class="carouselImg" src="images/wendyrbbcard2.webp" />
           
                 <p id="mdo" class="members">Wendy</p>
                 
             </slide>
                                        <slide :index="8">
                     
-                    <img style="cursor: pointer;" class="carouselImg" src="images/yerirbbcard1.jpg" />
+                    <img style="cursor: pointer;" class="carouselImg" src="images/yerirbbcard1.webp" />
           
                 <p id="mdo" class="members">Yeri</p>
                 
             </slide>
                                                <slide :index="9">
                     
-                    <img style="cursor: pointer;" class="carouselImg" src="images/yerirbbcard2.jpg" />
+                    <img style="cursor: pointer;" class="carouselImg" src="images/yerirbbcard2.webp" />
           
                 <p id="mdo" class="members">Yeri</p>
                 

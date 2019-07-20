@@ -8,7 +8,7 @@
     <meta name="twitter:site" content="redvelvet.pro">
     <meta name="twitter:title" content="Red Velvet RBB ">
     <meta name="twitter:description" content="Really Bad Boy">
-    <meta name="twitter:image" content="/images/covers/The_Perfect_Red_Velvet.jpg">
+    <meta name="twitter:image" content="/images/covers/The_Perfect_Red_Velvet.webp">
   </head>
 
   <videobgThePerfectRedVelvet></videobgThePerfectRedVelvet>
@@ -17,7 +17,7 @@
       <b-col xl="4">
         <b-img
           thumbnail
-          src="/images/covers/The_Perfect_Red_Velvet.jpg"
+          src="/images/covers/The_Perfect_Red_Velvet.webp"
           fluid-grow
           alt="Responsive image"
         />
@@ -71,7 +71,7 @@
       <b-col xl="12">
         <b-img
           style="background-color:transparent"
-          src="/images/ThePerfectRedVelvetArt1.png"
+          src="/images/ThePerfectRedVelvetArt1.webp"
           fluid-grow
           alt="Responsive image"
         />
@@ -126,7 +126,7 @@
       <b-col xl="12">
         <b-img
           style="background-color:transparent"
-          src="/images/ThePerfectRedVelvetArt2.png"
+          src="/images/ThePerfectRedVelvetArt2.webp"
           fluid-grow
           alt="Responsive image"
         />
@@ -163,7 +163,7 @@
       <b-col xl="12">
         <b-img
           style="background-color:transparent"
-    src="/images/ThePerfectRedVelvetArt3.png"
+          src="/images/ThePerfectRedVelvetArt3.webp"
           fluid-grow
           alt="Responsive image"
         />
@@ -202,14 +202,13 @@
           <div style="text-align: left;">
             <p>
               <br>Tamar Herman of Billboard called the title track "Bad Boy" their "darkest yet", comparing them to the rainbow hues of their last single "Peek-a-Boo" and stated the members "played up their smoother retro leanings" with the addition of the new songs. Herman also commented on the members' styling, noting the "sexy uniforms and athleisure fishnet-and-leather outfits" which depicted the group as "femme fatales".
-               The song's choreography was also seen as the sexiest the group has ever done. Lastly, she called the song and the album "overall representatives" of the group's "velvet" side (a reference to the group's dual concept), contrasting the quirkier "red" songs the group has released in the previous year.
-               Similarly, Ela Teodosio of Christian Today believed that the single was their "most fiery track yet" and stated that the two other tracks that were added to the album "follow the group's theme of retro disco".
+              The song's choreography was also seen as the sexiest the group has ever done. Lastly, she called the song and the album "overall representatives" of the group's "velvet" side (a reference to the group's dual concept), contrasting the quirkier "red" songs the group has released in the previous year.
+              Similarly, Ela Teodosio of Christian Today believed that the single was their "most fiery track yet" and stated that the two other tracks that were added to the album "follow the group's theme of retro disco".
               <br>
               <br>Avery Thompson of Hollywood Life called the members "the epitome of girl power" as she praised the music video of the lead single.
-               Fuse's Jeff Benjamin opined that the group put their own spin on modern R&B and hip hop, comparing it to the likes of Rihanna, Tinashe, and Cardi B where they incorporate "sassy, catch phrases into their verses and choruses".
-                He then described the other track "All Right" as a "synth-pop cut" and "Time to Love" a "snappy ballad".[22] Forbes stated that The Stereotypes' work on the album "have helped hone the girl group's lush contemporary R&B-meets-pop sound". In December 2018, Billboard included the title track "Bad Boy" in their '100 Best Songs of 2018: Critics' Picks' list while MTV picked "All Right" as one of the 'Best K-Pop B-Sides of 2018'.[24][25] The Perfect Red Velvet was also included in Refinery29's '12 Best K-Pop Albums of 2018'.
-
-In South Korea, X Sports News called "Bad Boy" the perfect blend of the group's intense "red" side and soft "velvet" in their review of Red Velvet's dual concept "red" and velvet" since their debut with "Happiness" and "Be Natural".
+              Fuse's Jeff Benjamin opined that the group put their own spin on modern R&B and hip hop, comparing it to the likes of Rihanna, Tinashe, and Cardi B where they incorporate "sassy, catch phrases into their verses and choruses".
+              He then described the other track "All Right" as a "synth-pop cut" and "Time to Love" a "snappy ballad".[22] Forbes stated that The Stereotypes' work on the album "have helped hone the girl group's lush contemporary R&B-meets-pop sound". In December 2018, Billboard included the title track "Bad Boy" in their '100 Best Songs of 2018: Critics' Picks' list while MTV picked "All Right" as one of the 'Best K-Pop B-Sides of 2018'.[24][25] The Perfect Red Velvet was also included in Refinery29's '12 Best K-Pop Albums of 2018'.
+              In South Korea, X Sports News called "Bad Boy" the perfect blend of the group's intense "red" side and soft "velvet" in their review of Red Velvet's dual concept "red" and velvet" since their debut with "Happiness" and "Be Natural".
             </p>
           </div>
         </div>
@@ -259,7 +258,12 @@ In South Korea, X Sports News called "Bad Boy" the perfect blend of the group's 
   <b-container>
     <b-row>
       <b-col class="bio top-bufferStart">
-        <b-img thumbnail src="/images/ThePerfectRedVelvetAlbumCover1.jpg" fluid-grow alt="Responsive image"/>
+        <b-img
+          thumbnail
+          src="/images/ThePerfectRedVelvetAlbumCover1.webp"
+          fluid-grow
+          alt="Responsive image"
+        />
       </b-col>
     </b-row>
   </b-container>
@@ -276,7 +280,7 @@ In South Korea, X Sports News called "Bad Boy" the perfect blend of the group's 
                       thumbnail
                       style="width:50%; align:center"
                       class="img-center"
-                      src="/images/covers/Summer_Magic.jpg"
+                      src="/images/covers/Summer_Magic.webp"
                       alt="Responsive image"
                     />
                   </router-link>
@@ -296,7 +300,7 @@ In South Korea, X Sports News called "Bad Boy" the perfect blend of the group's 
                       thumbnail
                       style="width:50%; align:center"
                       class="img-center"
-                      src="/images/covers/The_Perfect_Red_Velvet.jpg"
+                      src="/images/covers/The_Perfect_Red_Velvet.webp"
                       alt="Responsive image"
                     />
                   </router-link>
@@ -335,7 +339,7 @@ AOS.init();
 export default {
   components: {
     RBBPhotocards,
-    videobgThePerfectRedVelvet 
+    videobgThePerfectRedVelvet
   },
   data() {
     return {

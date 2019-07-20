@@ -7,7 +7,7 @@
 
       <b-row>
         <b-col xl="4">
-          <b-img thumbnail class="JoyImg" src="images/joy.jpg" fluid-grow alt="Responsive image"/>
+          <b-img thumbnail class="JoyImg" src="images/joy.webp" fluid-grow alt="Responsive image"/>
           <div>
             <b-card class="JoyTableData" no-body>
               <b-tabs card>
@@ -18,7 +18,6 @@
                   <b-table class="JoyTableData" stacked :items="CareerData"/>
                 </b-tab>
               </b-tabs>
-
             </b-card>
           </div>
         </b-col>
@@ -57,7 +56,8 @@
             On December 29, 2015, Joy shared a win with Yook for the Best Couple Award and separately won the New Star
             Award at the 2015 MBC Entertainment Awards.
             <br>
-            <br>Following group promotions for Red Velvet's second mini album The Velvet, Joy released a duet with Yook on
+            <br>
+Following group promotions for Red Velvet's second mini album The Velvet, Joy released a duet with Yook on
             April 16, 2016 entitled "Young Love" and received official songwriting credit for contributing to its
             lyrical composition.
             The song entered the top 12 of the Instiz iChart real-time rankings upon its release and peaked at #52 on
@@ -66,7 +66,6 @@
             popular couples in the show's history.
             Over the course of We Got Married airing, their videos together on YouTube accumulated over 21.3 million
             views and have since gone on to accumulate over 200 million views in total.
-            
           </p>
           <b-button variant="warning" v-on:click="isHidden = !isHidden">Show/Hide Achievements</b-button>
           <b-button variant="warning" v-on:click="isHidden2 = !isHidden2">Show/Hide TV-Appearances</b-button>
@@ -89,9 +88,8 @@
       </b-row>
       <b-row>
         <b-col>
-        <joyFacts></joyFacts>
+          <joyFacts></joyFacts>
           <div class="reee" v-if="isHidden3">
-            
             <joyTimeline></joyTimeline>
           </div>
         </b-col>
@@ -133,12 +131,11 @@ export default {
 };
 </script>
 <style>
-
-.reee{
-        background-color: rgba(4, 19, 36, 0.664);
+.reee {
+  background-color: rgba(4, 19, 36, 0.664);
 }
 
-.checkboxjoy{
+.checkboxjoy {
   font-family: Arial, Helvetica, sans-serif !important;
   font-weight: 100 !important;
 }

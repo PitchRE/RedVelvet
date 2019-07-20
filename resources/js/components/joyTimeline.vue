@@ -4,7 +4,7 @@
     <v-timeline-item  large >
       <template v-slot:icon>
         <v-avatar>
-          <img src="/images/joyuwu2.jpg" />
+          <img src="/images/joyuwu2.webp" />
         </v-avatar>
       </template>
       <template v-slot:opposite>
@@ -20,7 +20,7 @@
     <v-timeline-item  large>
       <template v-slot:icon>
         <v-avatar>
-          <img src="images/joyuwu2.jpg" />
+          <img src="images/joyuwu2.webp" />
         </v-avatar>
       </template>
       <template v-slot:opposite>
@@ -37,7 +37,7 @@
     <v-timeline-item  large>
       <template v-slot:icon>
         <v-avatar>
-          <img src="images/joyuwu2.jpg" />
+          <img src="images/joyuwu2.webp" />
         </v-avatar>
       </template>
       <template v-slot:opposite>
@@ -54,7 +54,7 @@
     <v-timeline-item  large>
       <template v-slot:icon>
         <v-avatar>
-          <img src="images/joyuwu2.jpg" />
+          <img src="images/joyuwu2.webp" />
         </v-avatar>
       </template>
       <template v-slot:opposite>
@@ -71,7 +71,7 @@
     <v-timeline-item  large>
       <template v-slot:icon>
         <v-avatar>
-          <img src="images/joyuwu2.jpg" />
+          <img src="images/joyuwu2.webp" />
         </v-avatar>
       </template>
       <template v-slot:opposite>
@@ -88,7 +88,7 @@
     <v-timeline-item  large>
       <template v-slot:icon>
         <v-avatar>
-          <img src="images/joyuwu2.jpg" />
+          <img src="images/joyuwu2.webp" />
         </v-avatar>
       </template>
       <template v-slot:opposite>
@@ -105,7 +105,7 @@
         <v-timeline-item  large>
             <template v-slot:icon>
                 <v-avatar>
-                    <img src="images/joyuwu2.jpg" />
+                    <img src="images/joyuwu2.webp" />
                 </v-avatar>
             </template>
             <template v-slot:opposite>
@@ -119,7 +119,7 @@
     <v-timeline-item  large>
       <template v-slot:icon>
         <v-avatar>
-          <img src="images/joyuwu2.jpg" />
+          <img src="images/joyuwu2.webp" />
         </v-avatar>
       </template>
       <template v-slot:opposite>
@@ -138,7 +138,7 @@
     <v-timeline-item  large>
       <template v-slot:icon>
         <v-avatar>
-          <img src="images/joyuwu2.jpg" />
+          <img src="images/joyuwu2.webp" />
         </v-avatar>
       </template>
       <template v-slot:opposite>
@@ -159,7 +159,7 @@
     <v-timeline-item  large>
       <template v-slot:icon>
         <v-avatar>
-          <img src="images/joyuwu2.jpg" />
+          <img src="images/joyuwu2.webp" />
         </v-avatar>
       </template>
       <template v-slot:opposite>
@@ -180,7 +180,7 @@
     <v-timeline-item  large>
       <template v-slot:icon>
         <v-avatar>
-          <img src="images/joyuwu2.jpg" />
+          <img src="images/joyuwu2.webp" />
         </v-avatar>
       </template>
       <template v-slot:opposite>
@@ -199,7 +199,7 @@
     <v-timeline-item  large>
       <template v-slot:icon>
         <v-avatar>
-          <img src="images/joyuwu2.jpg" />
+          <img src="images/joyuwu2.webp" />
         </v-avatar>
       </template>
       <template v-slot:opposite>
@@ -219,7 +219,7 @@
     <v-timeline-item  large>
       <template v-slot:icon>
         <v-avatar>
-          <img src="images/joyuwu2.jpg" />
+          <img src="images/joyuwu2.webp" />
         </v-avatar>
       </template>
       <template v-slot:opposite>
@@ -242,7 +242,7 @@
     <v-timeline-item  large>
       <template v-slot:icon>
         <v-avatar>
-          <img src="images/joyuwu2.jpg" />
+          <img src="images/joyuwu2.webp" />
         </v-avatar>
       </template>
       <template v-slot:opposite>
@@ -260,7 +260,7 @@
     <v-timeline-item  large>
       <template v-slot:icon>
         <v-avatar>
-          <img src="images/joyuwu2.jpg" />
+          <img src="images/joyuwu2.webp" />
         </v-avatar>
       </template>
       <template v-slot:opposite>
@@ -278,7 +278,7 @@
     <v-timeline-item  large>
       <template v-slot:icon>
         <v-avatar>
-          <img src="images/joyuwu2.jpg" />
+          <img src="images/joyuwu2.webp" />
         </v-avatar>
       </template>
       <template v-slot:opposite>
@@ -296,7 +296,7 @@
     <v-timeline-item  large>
       <template v-slot:icon>
         <v-avatar>
-          <img src="images/joyuwu2.jpg" />
+          <img src="images/joyuwu2.webp" />
         </v-avatar>
       </template>
       <template v-slot:opposite>
@@ -317,7 +317,7 @@
     <v-timeline-item  large>
       <template v-slot:icon>
         <v-avatar>
-          <img src="images/joyuwu2.jpg" />
+          <img src="images/joyuwu2.webp" />
         </v-avatar>
       </template>
       <template v-slot:opposite>
@@ -339,7 +339,7 @@
     <v-timeline-item  large>
       <template v-slot:icon>
         <v-avatar>
-          <img src="images/joyuwu2.jpg" />
+          <img src="images/joyuwu2.webp" />
         </v-avatar>
       </template>
       <template v-slot:opposite>
@@ -357,7 +357,7 @@
     <v-timeline-item  large>
       <template v-slot:icon>
         <v-avatar>
-          <img src="images/joyuwu2.jpg" />
+          <img src="images/joyuwu2.webp" />
         </v-avatar>
       </template>
       <template v-slot:opposite>
@@ -374,7 +374,7 @@
         <v-timeline-item  large>
             <template v-slot:icon>
                 <v-avatar>
-                    <img src="images/joyuwu2.jpg" />
+                    <img src="images/joyuwu2.webp" />
                 </v-avatar>
             </template>
             <template v-slot:opposite>

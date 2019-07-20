@@ -8,7 +8,7 @@
     <meta name="twitter:site" content="redvelvet.pro">
     <meta name="twitter:title" content="Red Velvet">
     <meta name="twitter:description" content="#content">
-    <meta name="twitter:image" content="http://redvelvet.pro/images/card.jpg">
+    <meta name="twitter:image" content="http://redvelvet.pro/images/card.webp">
   </head>
   <div class="ParallaxImage bg1">
     <div class="container">

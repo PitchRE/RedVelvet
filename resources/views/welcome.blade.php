@@ -9,7 +9,7 @@
     <meta name="twitter:site" content="redvelvet.pro">
     <meta name="twitter:title" content="Red Velvet">
     <meta name="twitter:description" content="Red Velvet content.">
-    <meta name="twitter:image" content="/images/card.jpg">
+    <meta name="twitter:image" content="/images/card.webp">
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
     <link href="{{ asset('./../css/app.css')}}" rel="stylesheet" />
 

@@ -13,30 +13,30 @@
         >
             <slide :index="0">
              
-                    <img style="cursor: pointer;" class="carouselImg" src="images/JoyPhotocardSummerMagic.jpg" />
+                    <img style="cursor: pointer;" class="carouselImg" src="images/JoyPhotocardSummerMagic.webp" />
            
                 <p class="members">Joy</p>
             </slide>
             <slide :index="1">
          
-                   <img style="cursor: pointer;" class="carouselImg" src="images/SeulgiPhotocardSummerMagic.jpg" />
+                   <img style="cursor: pointer;" class="carouselImg" src="images/SeulgiPhotocardSummerMagic.webp" />
                     
                 <p class="members">Seulgi</p>
             </slide>
             <slide :index="2">
-                <img class="carouselImg" src="images/IrenePhotocardSummerMagic.jpg" />
+                <img class="carouselImg" src="images/IrenePhotocardSummerMagic.webp" />
                 <p class="members">Irene</p>
             </slide>
             <slide :index="3">
         
-                <img style="cursor: pointer;" class="carouselImg" src="images/WendyPhotocardSummerMagic.jpg" />
+                <img style="cursor: pointer;" class="carouselImg" src="images/WendyPhotocardSummerMagic.webp" />
               
                 <p class="members">Wendy</p>
                 
             </slide>
             <slide :index="4">
                     
-                    <img style="cursor: pointer;" class="carouselImg" src="images/YeriPhotocardSummerMagic.jpg" />
+                    <img style="cursor: pointer;" class="carouselImg" src="images/YeriPhotocardSummerMagic.webp" />
           
                 <p id="mdo" class="members">Yeri</p>
                 
