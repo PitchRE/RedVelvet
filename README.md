@@ -1,3 +1,6 @@
+# Notice: Project made only for learning purposes, bad optimized and old.
+
+
 # Red Velvet
 
 
