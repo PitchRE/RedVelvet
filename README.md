@@ -1,4 +1,4 @@
-# Notice: Project made only for learning purposes, bad optimized and old.
+# Notice: Project made only for learning purposes, badly optimized and old.
 
 
 # Red Velvet
